@@ -27,19 +27,21 @@ I’m growing toward **software engineering and product management** while explo
 
 ## ✨ Selected Projects
 
+### 🎮 Roshambo — Rock Paper Scissors
+**Completed · Python · Elon University**
+
+- Built a modular game with reusable functions to evaluate player and computer choices, determine outcomes, and separate game rules from user interaction.
+- Added randomized computer behavior, conditional logic, input handling, and iterative gameplay; tested functions, debugged incorrect outcomes, and checked edge cases.
+- Developed the game incrementally through decomposition and testing, growing a simple ruleset into a functional interactive game.
+
+### 🟩 Neddle — Wordle-Style Game
+**In development · Python**
+
+- Developing an interactive word-guessing game with Python functions, strings, sequences, iteration, and conditional logic.
+- Designing character-by-character feedback to identify correct, misplaced, and incorrect letters and update game state across attempts.
+- Applying decomposition, debugging, and iterative testing to build smaller components and integrate them into a complete playable experience.
+
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎮 Roshambo</h3>
-      <p><strong>Completed · Python · Elon University</strong></p>
-      <p>A Rock–Paper–Scissors game created for an introductory computer science lab. I practiced writing functions, determining the winner, and building a repeatable game flow.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🟩 Neddle</h3>
-      <p><strong>In progress · Wordle-style game</strong></p>
-      <p>A word-guessing game I’m building as I grow my coding skills. It’s a chance to turn a simple idea into a clear, enjoyable interaction.</p>
-    </td>
-  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🎨 Black Arts Movement</h3>
