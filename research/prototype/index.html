@@ -59,7 +59,7 @@
     .section-label { margin: 0 0 8px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
     .recommendation { padding: 19px; border: 1px solid #d6e3d5; border-radius: 15px; background: #f4f8ef; }
     .recommendation p { margin: 0; font-size: 17px; line-height: 1.5; }
-    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; margin-top: 11px; }
+    .detail-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 11px; margin-top: 11px; }
     .detail { padding: 15px; border: 1px solid var(--line); border-radius: 13px; }
     .detail h3 { margin: 0 0 6px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
     .detail p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
@@ -78,6 +78,7 @@
       .workspace { grid-template-columns: 1fr; }
       .scenario-list { grid-template-columns: repeat(3, 1fr); }
       .scenario-button { padding: 10px 8px; font-size: 12px; }
+      .detail-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 500px) {
       .page { width: min(100% - 22px, 1100px); }
@@ -133,7 +134,8 @@
           <div class="recommendation"><p id="suggestion"></p></div>
           <div class="detail-grid" id="details">
             <div class="detail"><h3>Why it suggested this</h3><p id="reason"></p></div>
-            <div class="detail"><h3>What to check</h3><p id="evidence"></p></div>
+            <div class="detail"><h3>Evidence in the case</h3><p id="evidence"></p></div>
+            <div class="detail"><h3>What it may miss</h3><p id="limitation"></p></div>
           </div>
           <div class="reflection" id="reflection"><strong>Pause for a moment.</strong> <span id="prompt"></span></div>
           <div class="choice-row">
@@ -157,6 +159,7 @@
         suggestion: "Use the full $120 for the optional purchase today.",
         reason: "The suggestion treats the available balance as flexible spending.",
         evidence: "The case also says a $45 course lab fee is due tomorrow.",
+        limitation: "It overlooks the fee due tomorrow, so spending the full balance could leave a known need uncovered.",
         prompt: "Which detail would you check before deciding?"
       },
       {
@@ -165,6 +168,7 @@
         suggestion: "Set aside $50 for the textbook and keep the remaining $30 available.",
         reason: "The plan reserves the stated book cost and does not allocate more than the balance.",
         evidence: "The case lists an $80 balance and a required $50 textbook.",
+        limitation: "It does not account for any unlisted expenses or changes in the book price.",
         prompt: "Does the suggestion account for the stated cost and timing?"
       },
       {
@@ -173,6 +177,7 @@
         suggestion: "Buy the $25 pass and leave $40 for other listed needs.",
         reason: "The suggestion covers the stated transportation need and preserves the rest of the balance.",
         evidence: "The case lists a $65 balance and a $25 weekly pass.",
+        limitation: "It assumes the pass covers the trips needed and that the remaining $40 is enough for other expenses.",
         prompt: "What could change this plan, even if the arithmetic checks out?"
       }
     ];
@@ -202,6 +207,7 @@
       $("suggestion").textContent = item.suggestion;
       $("reason").textContent = item.reason;
       $("evidence").textContent = item.evidence;
+      $("limitation").textContent = item.limitation;
       $("prompt").textContent = item.prompt;
       $("details").hidden = !evidenceView;
       $("reflection").hidden = !evidenceView;
