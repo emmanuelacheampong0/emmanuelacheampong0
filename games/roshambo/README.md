@@ -17,3 +17,7 @@ python3 -m unittest -v
 ```
 
 The tests cover every outcome, case normalization, invalid choices, the computer's choice, and the round helper.
+
+## Browser edition
+
+Open [`index.html`](index.html) locally for the designed browser version. It includes round feedback, score tracking, and a reset control; it runs without packages or network access.

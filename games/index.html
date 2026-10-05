@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f3ec" />
+  <title>Games Lab — Emmanuel Acheampong</title>
+  <style>
+    :root { --paper:#f6f3ec; --card:#fffdf7; --ink:#1d2821; --muted:#68736b; --line:#dfe3da; --pine:#275845; --coral:#e87556; --blue:#bcd5ed; --serif:Georgia,"Times New Roman",serif; --sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+    *{box-sizing:border-box} body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans)} a{color:inherit} .wrap{width:min(1100px,calc(100% - 36px));margin:auto}
+    header{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)} .brand{font-weight:750;letter-spacing:-.04em}.tag{color:var(--muted);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+    .hero{padding:70px 0 44px;max-width:750px}.eyebrow{color:var(--pine);font-size:12px;font-weight:750;letter-spacing:.14em;text-transform:uppercase} h1{margin:14px 0 15px;font:500 clamp(48px,9vw,94px)/.92 var(--serif);letter-spacing:-.055em} .hero p{max-width:600px;color:var(--muted);font-size:17px;line-height:1.7}
+    .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding-bottom:54px}.card{position:relative;min-height:395px;overflow:hidden;border:1px solid var(--line);border-radius:22px;background:var(--card);text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}.card:hover{transform:translateY(-4px);box-shadow:0 18px 38px #24342812}.art{height:190px;display:grid;place-items:center;position:relative;overflow:hidden}.roshambo .art{background:#e4efe4}.neddle .art{background:#f4e2d5}.orb{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:var(--card);box-shadow:0 12px 22px #16251b18;font-size:42px}.orbit{position:absolute;width:215px;height:215px;border:1px solid #27584544;border-radius:50%;transform:rotate(-25deg) scaleY(.45)}.orbit.two{transform:rotate(38deg) scaleY(.48);width:285px;height:285px}.tiles{display:grid;grid-template-columns:repeat(5,32px);gap:5px;transform:rotate(-6deg)}.tiles i{height:32px;border-radius:7px;background:#fffdf7}.tiles i:nth-child(2),.tiles i:nth-child(4),.tiles i:nth-child(8),.tiles i:nth-child(10){background:#7f9d74}.tiles i:nth-child(3),.tiles i:nth-child(6){background:#e8ae52}.info{padding:23px 24px}.number{color:var(--muted);font:12px ui-monospace,monospace;letter-spacing:.1em}.info h2{margin:9px 0 8px;font:500 34px var(--serif)}.info p{max-width:430px;margin:0;color:var(--muted);line-height:1.55}.cta{display:inline-flex;align-items:center;gap:8px;margin-top:19px;color:var(--pine);font-size:13px;font-weight:750}.footer{padding:17px 0 28px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:680px){.cards{grid-template-columns:1fr}.hero{padding-top:48px}.card{min-height:0}.tag{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><div class="brand">EMMANUEL <span style="color:var(--coral)">/</span> GAMES LAB</div><div class="tag">Small ideas, thoughtfully built</div></header>
+    <main>
+      <section class="hero"><div class="eyebrow">Python projects · interactive editions</div><h1>Play.<br>Notice.<br>Repeat.</h1><p>Two class projects, rebuilt with care: a quick round of Roshambo and a word puzzle where every letter gives you another clue.</p></section>
+      <section class="cards" aria-label="Games">
+        <a class="card roshambo" href="roshambo/index.html">
+          <div class="art"><span class="orbit"></span><span class="orbit two"></span><span class="orb" aria-hidden="true">✊</span></div>
+          <div class="info"><span class="number">01 / ROSHAMBO</span><h2>Rock, Paper, Scissors</h2><p>Make your throw, read the match-up, and see if you can outplay a little randomness.</p><span class="cta">Play Roshambo <span aria-hidden="true">↗</span></span></div>
+        </a>
+        <a class="card neddle" href="neddle/index.html">
+          <div class="art"><span class="tiles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+          <div class="info"><span class="number">02 / NEDDLE</span><h2>Find the hidden word</h2><p>Six tries. Five letters. A careful feedback system that treats duplicates fairly.</p><span class="cta">Play Neddle <span aria-hidden="true">↗</span></span></div>
+        </a>
+      </section>
+    </main>
+    <footer class="footer"><span>Designed and built by Emmanuel Sefah Acheampong</span><a href="../README.md">Back to profile ↗</a></footer>
+  </div>
+</body>
+</html>

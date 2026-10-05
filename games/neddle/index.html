@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f3ec" />
+  <title>Neddle — Emmanuel Acheampong</title>
+  <style>
+    :root{--paper:#f6f3ec;--card:#fffdf7;--ink:#1d2821;--muted:#68736b;--line:#dfe3da;--pine:#275845;--coral:#e87556;--green:#618b64;--gold:#dfad4f;--serif:Georgia,"Times New Roman",serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans)}button{font:inherit;color:inherit}.wrap{width:min(710px,calc(100% - 28px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid var(--line)}.brand{font-weight:750;letter-spacing:-.04em}.brand a{text-decoration:none;color:inherit}.brand span{color:var(--coral)}.crumb{font-size:12px;color:var(--muted)}.crumb a{color:var(--pine);text-decoration:none}.hero{text-align:center;padding:29px 0 19px}.kicker{color:var(--pine);font-size:10px;font-weight:800;letter-spacing:.15em;text-transform:uppercase}h1{margin:9px 0 5px;font:500 48px/1 var(--serif);letter-spacing:-.05em}.sub{margin:0;color:var(--muted);font-size:13px}.game{max-width:390px;margin:auto}.status{min-height:24px;margin:0 0 10px;text-align:center;color:var(--pine);font-size:13px;font-weight:650}.board{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;width:min(318px,100%);margin:0 auto 18px}.tile{aspect-ratio:1;display:grid;place-items:center;border:1px solid #cfd5cc;border-radius:8px;background:var(--card);font-size:22px;font-weight:750;text-transform:uppercase;transition:transform .12s ease,background .15s ease,border-color .15s ease}.tile.filled{border-color:#9aa99c;animation:pop .12s ease}.tile.correct{border-color:var(--green);background:var(--green);color:white}.tile.present{border-color:var(--gold);background:var(--gold);color:#263024}.tile.absent{border-color:#8a928d;background:#8a928d;color:white}@keyframes pop{50%{transform:scale(1.06)}}.keyboard{display:grid;gap:6px;margin:0 auto;max-width:425px}.key-row{display:flex;justify-content:center;gap:5px}.key{height:45px;min-width:29px;padding:0 7px;border:0;border-radius:7px;background:#dfe4dc;cursor:pointer;font-size:12px;font-weight:750}.key:hover,.key:focus-visible{outline:2px solid var(--pine);outline-offset:1px}.key.wide{min-width:53px;font-size:10px}.key.correct{background:var(--green);color:white}.key.present{background:var(--gold)}.key.absent{background:#a7ada7;color:white}.controls{display:flex;justify-content:center;gap:9px;margin:17px 0 0}.utility{padding:9px 13px;border:1px solid var(--line);border-radius:10px;background:var(--card);cursor:pointer;font-size:12px;font-weight:650}.utility:hover{border-color:var(--pine);color:var(--pine)}.legend{display:flex;justify-content:center;gap:15px;margin:16px 0 0;color:var(--muted);font-size:10px}.legend span{display:inline-flex;align-items:center;gap:5px}.swatch{width:9px;height:9px;border-radius:3px}.swatch.green{background:var(--green)}.swatch.gold{background:var(--gold)}.swatch.gray{background:#8a928d}footer{display:flex;justify-content:space-between;gap:10px;margin-top:22px;padding:15px 0 22px;border-top:1px solid var(--line);color:var(--muted);font-size:11px}footer a{color:var(--pine);text-decoration:none}.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:450px){.key{height:42px;min-width:25px;padding:0 5px}.key.wide{min-width:44px}.key-row{gap:4px}.board{width:min(300px,100%)}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><div class="brand"><a href="../index.html">EMMANUEL <span>/</span> GAMES LAB</a></div><div class="crumb"><a href="../index.html">All games</a> / Neddle</div></header>
+    <main>
+      <section class="hero"><div class="kicker">Six guesses · five letters</div><h1>Neddle</h1><p class="sub">A little word puzzle. Take your time with the clues.</p></section>
+      <section class="game" aria-label="Neddle word game">
+        <p class="status" id="status" role="status" aria-live="polite">Type a five-letter guess to begin.</p>
+        <div class="board" id="board" role="grid" aria-label="Six rows of five letter guesses"></div>
+        <div class="keyboard" id="keyboard" role="group" aria-label="On-screen keyboard"></div>
+        <div class="controls"><button class="utility" type="button" id="newGame">New word</button><button class="utility" type="button" id="clear">Clear row</button></div>
+        <div class="legend" aria-label="Feedback key"><span><i class="swatch green"></i>Right spot</span><span><i class="swatch gold"></i>In the word</span><span><i class="swatch gray"></i>Not in word</span></div>
+      </section>
+    </main>
+    <footer><span>Browser edition · choices stay on this device</span><a href="neddle.py">View Python source ↗</a></footer>
+  </div>
+  <script>
+    const WORDS=["apple","bloom","brick","cheer","crane","dream","fresh","grape","light","ocean","plant","quiet","slate","smile","toast","train"];
+    const MAX=6, SIZE=5, MARK={correct:"🟩",present:"🟨",absent:"⬜"};
+    let answer="", row=0, guess="", ended=false, history=[];
+    const $=id=>document.getElementById(id);
+    function pickWord(){return WORDS[Math.floor(Math.random()*WORDS.length)];}
+    function scoreGuess(input,target){
+      const result=Array(SIZE).fill("absent"), remaining={};
+      for(let i=0;i<SIZE;i++){if(input[i]===target[i])result[i]="correct";else remaining[target[i]]=(remaining[target[i]]||0)+1;}
+      for(let i=0;i<SIZE;i++){if(result[i]==="correct")continue;if(remaining[input[i]]>0){result[i]="present";remaining[input[i]]--;}}
+      return result;
+    }
+    function drawBoard(){
+      const board=$("board");board.replaceChildren();
+      for(let r=0;r<MAX;r++)for(let c=0;c<SIZE;c++){
+        const tile=document.createElement("div");tile.className="tile";tile.setAttribute("role","gridcell");
+        tile.setAttribute("aria-label",`Row ${r+1}, letter ${c+1}, empty`);
+        if(history[r]){tile.textContent=history[r].guess[c];tile.classList.add(history[r].marks[c]);tile.setAttribute("aria-label",`${history[r].guess[c].toUpperCase()}, ${history[r].marks[c]}`);}
+        else if(r===row&&guess[c]){tile.textContent=guess[c];tile.classList.add("filled");tile.setAttribute("aria-label",`Row ${r+1}, letter ${c+1}, ${guess[c].toUpperCase()}`);}
+        board.append(tile);
+      }
+    }
+    function buildKeyboard(){
+      const rows=["qwertyuiop","asdfghjkl","zxcvbnm"], keyboard=$("keyboard");keyboard.replaceChildren();
+      rows.forEach((letters,index)=>{
+        const line=document.createElement("div");line.className="key-row";
+        if(index===2){line.append(makeKey("Enter","wide",submit));}
+        for(const letter of letters)line.append(makeKey(letter,"",()=>press(letter)));
+        if(index===2)line.append(makeKey("⌫","wide",backspace));keyboard.append(line);
+      });
+    }
+    function makeKey(label,extra,action){const button=document.createElement("button");button.type="button";button.className=`key ${extra}`;button.textContent=label;if(/^[a-z]$/.test(label))button.dataset.letter=label;button.setAttribute("aria-label",label==="⌫"?"Backspace":label);button.addEventListener("click",action);return button;}
+    function press(letter){if(ended||guess.length>=SIZE)return;guess+=letter;drawBoard();}
+    function backspace(){if(ended)return;guess=guess.slice(0,-1);drawBoard();}
+    function submit(){
+      if(ended)return;
+      if(guess.length!==SIZE){setStatus("Add five letters before you enter.");return;}
+      const marks=scoreGuess(guess,answer);
+      history[row]={guess,marks};
+      updateKeys(guess,marks);
+      if(guess===answer){ended=true;drawBoard();setStatus(`You found it in ${row+1} ${row===0?"guess":"guesses"}. Lovely work.`);return;}
+      row++;guess="";
+      if(row===MAX){ended=true;drawBoard();setStatus(`That was the last try. The word was ${answer.toUpperCase()}.`);return;}
+      setStatus("A new clue is ready.");drawBoard();
+    }
+    function updateKeys(word,marks){
+      const rank={absent:1,present:2,correct:3};
+      word.split("").forEach((letter,index)=>{
+        const key=[...$("keyboard").querySelectorAll(".key")].find(button=>button.dataset.letter===letter);if(!key)return;
+        const next=marks[index],old=[...key.classList].find(x=>rank[x]);if(!old||rank[next]>rank[old]){key.classList.remove("correct","present","absent");key.classList.add(next);}
+      });
+    }
+    function setStatus(text){$("status").textContent=text;}
+    function newGame(){answer=pickWord();row=0;guess="";ended=false;history=[];setStatus("Type a five-letter guess to begin.");buildKeyboard();drawBoard();}
+    $("newGame").addEventListener("click",newGame);
+    $("clear").addEventListener("click",()=>{if(!ended){guess="";drawBoard();setStatus("Current row cleared.");}});
+    document.addEventListener("keydown",event=>{if(event.target instanceof HTMLButtonElement&&["Enter"," "].includes(event.key))return;if(event.key==="Enter"){event.preventDefault();submit();}else if(event.key==="Backspace")backspace();else if(/^[a-zA-Z]$/.test(event.key))press(event.key.toLowerCase());});
+    newGame();
+  </script>
+</body>
+</html>

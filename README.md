@@ -10,6 +10,8 @@
     <img src="https://img.shields.io/badge/Software%20Engineering-Learning-0F766E?style=for-the-badge" alt="Software Engineering" />
     <img src="https://img.shields.io/badge/Product%20Management-Curious-7C3AED?style=for-the-badge" alt="Product Management" />
     <img src="https://img.shields.io/badge/Design-Enthusiast-F97316?style=for-the-badge" alt="Design Enthusiast" />
+    <img src="https://img.shields.io/badge/Odyssey%20%26%20Renaissance-Scholars%20Program-275845?style=for-the-badge" alt="Odyssey and Renaissance Scholars Program" />
+    <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/actions/workflows/quality.yml"><img src="https://github.com/emmanuelacheampong0/emmanuelacheampong0/actions/workflows/quality.yml/badge.svg" alt="Automated project checks" /></a>
   </p>
 
   <em>Design-minded by nature. Learning to build thoughtful technology with code.</em>
@@ -19,7 +21,7 @@
 
 ## ✦ My Design Lens
 
-I’m **Emmanuel “Junior” Acheampong**, a first-year Computer Science student at **Elon University** and a design enthusiast. I care about how a product works, how it feels to use, and whether it makes someone’s life a little easier. My creative background in graphic design and visual storytelling shapes how I approach software: start with people, make the experience clear, then build with purpose.
+I’m **Emmanuel “Junior” Acheampong**, a first-year Computer Science student at **Elon University** and a member of the **Odyssey & Renaissance Scholars Program**. I’m also a design enthusiast. I care about how a product works, how it feels to use, and whether it makes someone’s life a little easier. My creative background in graphic design and visual storytelling shapes how I approach software: start with people, make the experience clear, then build with purpose.
 
 I’m growing toward **software engineering and product management** while exploring **AI, research, and financial technology**. I’m especially interested in how thoughtful design can make complex tools feel more useful and accessible.
 
@@ -34,7 +36,7 @@ I’m growing toward **software engineering and product management** while explo
 - Added randomized computer behavior, conditional logic, input handling, and iterative gameplay; tested functions, debugged incorrect outcomes, and checked edge cases.
 - Developed the game incrementally through decomposition and testing, growing a simple ruleset into a functional interactive game.
 
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/roshambo">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/roshambo.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/test_roshambo.py">Tests</a>
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/roshambo">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/roshambo.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/index.html">Browser game source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/test_roshambo.py">Tests</a>
 
 ### 🟩 Neddle — Wordle-Style Game
 **Playable prototype · Python · Elon University**
@@ -43,7 +45,9 @@ I’m growing toward **software engineering and product management** while explo
 - Implemented character-by-character feedback for correct, misplaced, and incorrect letters, including duplicate-letter handling.
 - Used decomposition, debugging, and iterative testing to turn the game rules into reusable, testable Python functions.
 
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/neddle">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/neddle.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/test_neddle.py">Tests</a>
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/neddle">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/neddle.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/index.html">Browser game source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/test_neddle.py">Tests</a>
+
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/index.html">Games gallery source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games">All game files and run instructions</a>
 
 <table>
   <tr>
@@ -102,8 +106,10 @@ Exploring whether explanations, visible evidence, and reflection prompts help st
 - Product discovery, user-centered design, and product management
 - Foundations of AI and machine learning, with an interest in financial technology
 
-## 🏆 Experience & Competition
+## 🏆 Scholars, Experience & Competition
 
+- **Odyssey & Renaissance Scholars Program** — Elon University
+- **YAFG Scholar 2026** — Young Achievers Foundation Ghana
 - **Adobe Student Ambassador** — Elon University
 - **Project Manager Intern** — Excelerate
 - **Social Media & Engagement Lead** — Voima

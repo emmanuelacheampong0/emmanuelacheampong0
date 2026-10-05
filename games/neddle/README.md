@@ -17,3 +17,7 @@ python3 -m unittest -v
 ```
 
 The tests cover exact, misplaced, absent, and repeated-letter feedback, input validation, winning, and exhausting all six attempts.
+
+## Browser edition
+
+Open [`index.html`](index.html) locally for the designed browser version. It supports mouse and keyboard input, preserves feedback across guesses, and handles duplicate letters without over-counting them.

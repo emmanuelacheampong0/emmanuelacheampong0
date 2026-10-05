@@ -1,0 +1,27 @@
+name: Project quality
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test Roshambo
+        run: python -m unittest discover -s games/roshambo -p 'test_*.py'
+      - name: Test Neddle
+        run: python -m unittest discover -s games/neddle -p 'test_*.py'
+      - name: Check static demo pages and local links
+        run: python scripts/check_html.py
