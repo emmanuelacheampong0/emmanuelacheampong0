@@ -1,0 +1,199 @@
+Warning: truncated output (original token count: 3449)
+Total output lines: 236
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f2e9" />
+  <title>Forma — AI Budgeting Study Prototype</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4f2e9;
+      --surface: #fffdf7;
+      --ink: #17251f;
+      --muted: #617168;
+      --line: #dce3d8;
+      --green: #176247;
+      --lime: #c9f27a;
+      --amber: #f2bd62;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); }
+    button { color: inherit; font: inherit; }
+    .page { width: min(1100px, calc(100% - 36px)); margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 24px 0; border-bottom: 1px solid var(--line); }
+    .brand { display: flex; align-items: center; gap: 11px; font-weight: 700; letter-spacing: -.03em; }
+    .mark { display: grid; width: 34px; height: 34px; place-items: center; border-radius: 12px 12px 12px 3px; background: var(--green); color: white; font-size: 16px; }
+    .meta { color: var(--muted); font-size: 12px; letter-spacing: .11em; text-transform: uppercase; }
+    .hero { display: grid; grid-template-columns: 1.2fr .8fr; gap: 42px; align-items: end; padding: 54px 0 35px; }
+    .eyebrow { color: var(--green); font-size: 12px; font-weight: 750; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { max-width: 650px; margin: 13px 0 12px; font: 500 clamp(38px, 6vw, 68px)/.98 var(--serif); letter-spacing: -.045em; }
+    .intro { max-width: 620px; margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
+    .note { padding: 18px 20px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,253,247,.72); color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .note strong { display: block; margin-bottom: 5px; color: var(--ink); font-size: 14px; }
+    .workspace { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 22px; align-items: start; padding-bottom: 60px; }
+    aside, .main-card { border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }
+    aside { padding: 20px; }
+    .side-title { margin: 0 0 12px; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+    .scenario-list { display: grid; gap: 7px; }
+    .scenario-button { width: 100%; padding: 12px 13px; border: 1px solid transparent; border-radius: 11px; background: transparent; text-align: left; cursor: pointer; }
+    .scenario-button:hover { background: #f3f6ee; }
+    .scenario-button[aria-current="true"] { border-color: #c5d8c8; background: #edf4e9; color: var(--green); font-weight: 700; }
+    .side-rule { height: 1px; margin: 21px 0; background: var(--line); }
+    .mode-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; padding: 4px; border-radius: 12px; background: #eef1e9; }
+    .mode-button { padding: 9px 8px; border: 0; border-radius: 9px; background: transparent; cursor: pointer; font-size: 12px; font-weight: 650; }
+    .mode-button[aria-pressed="true"] { background: white; box-shadow: 0 1px 3px #17251f18; }
+    .tiny { margin: 10px 0 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .main-card { overflow: hidden; }
+    .card-top { display: flex; justify-content: space-between; gap: 16px; align-items: start; padding: 24px 26px; border-bottom: 1px solid var(--line); }
+    .case-label { color: var(--muted); font-size: 12px; letter-spacing: .11em; text-transform: uppercase; }
+    h2 { margin: 5px 0 0; font: 500 29px/1.12 var(--serif); letter-spacing: -.025em; }
+    .pill { flex: none; padding: 7px 10px; border-radius: 999px; background: #eff3e9; color: var(--green); font-size: 11px; font-weight: 700; }
+    .content { padding: 24px 26px 27px; }
+    .scenario { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 22px; }
+    .fact { padding: 13px; border: 1px solid var(--line); border-radius: 13px; background: #fbfaf4; }
+    .fact span { display: block; color: var(--muted); font-size: 11px; letter-spacing: .04em; }
+    .fact strong { display: block; margin-top: 7px; font-size: 16px; }
+    .section-label { margin: 0 0 8px; color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+    .recommendation { padding: 19px; border: 1px solid #d6e3d5; border-radius: 15px; background: #f4f8ef; }
+    .recommendation p { margin: 0; font-size: 17px; line-height: 1.5; }
+    .detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 11px; margin-top: 11px; }
+    .detail { padding: 15px; border: 1px solid var(--line); border-radius: 13px; }
+    .detail h3 { margin: 0 0 6px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+    .detail p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.55; }
+    .reflection { margin-top: 12px; padding: 14px 16px; border-left: 3px solid var(--amber); border-radius: 0 11px 11px 0; background: #fcf5e9; font-size: 14px; line-height: 1.5; }
+    .reflection strong { color: #72501d; }
+    .choice-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: center; margin-top: 22px; }
+    .choices { display: flex; flex-wrap: wrap; gap: 8px; }
+    .choice { padding: 11px 15px; border: 1px solid #bfd0c3; border-radius: 10px; background: white; cursor: pointer; font-weight: 650; }
+    .choice:hover, .choice:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+    .choice.primary { border-color: var(--green); background: var(--green); color: white; }
+    #response { min-height: 20px; color: var(--muted); font-size: 12px; }
+    .footer { padding: 19px 0 28px; border-top: 1px solid var(--line); col…449 tokens truncated…rio-list" id="scenarioList"></div>
+        <div class="side-rule"></div>
+        <h2 class="side-title">View the concept</h2>
+        <div class="mode-switch" role="group" aria-label="Recommendation presentation">
+          <button class="mode-button" id="plainMode" type="button" aria-pressed="false">Plain text</button>
+          <button class="mode-button" id="cardMode" type="button" aria-pressed="true">Evidence card</button>
+        </div>
+        <p class="tiny">Both views use the same scripted suggestion. Switch views to compare how the information is presented.</p>
+      </aside>
+
+      <section class="main-card" aria-live="polite">
+        <div class="card-top">
+          <div><div class="case-label" id="caseLabel">Case 01 · fictional</div><h2 id="caseTitle">Jordan’s week</h2></div>
+          <span class="pill">Simulated assistant</span>
+        </div>
+        <div class="content">
+          <p class="section-label">What we know</p>
+          <div class="scenario" id="facts"></div>
+          <p class="section-label">The suggestion</p>
+          <div class="recommendation"><p id="suggestion"></p></div>
+          <div class="detail-grid" id="details">
+            <div class="detail"><h3>Why it suggested this</h3><p id="reason"></p></div>
+            <div class="detail"><h3>What to check</h3><p id="evidence"></p></div>
+          </div>
+          <div class="reflection" id="reflection"><strong>Pause for a moment.</strong> <span id="prompt"></span></div>
+          <div class="choice-row">
+            <div class="choices" role="group" aria-label="Your response to the suggestion">
+              <button class="choice primary" type="button" data-choice="Use suggestion">Use suggestion</button>
+              <button class="choice" type="button" data-choice="Adjust or reject">Adjust / reject</button>
+            </div>
+            <div id="response" role="status" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">Research concept by Emmanuel Sefah Acheampong · No responses are recorded. This interface is a design stimulus for a proposed study; it has not been evaluated with participants.</footer>
+  </div>
+  <script>
+    const cases = [
+      {
+        title: "Jordan’s week",
+        facts: [["Available after essentials", "$120"], ["Lab fee due tomorrow", "$45"], ["Optional purchase today", "$120"]],
+        suggestion: "Use the full $120 for the optional purchase today.",
+        reason: "The suggestion treats the available balance as flexible spending.",
+        evidence: "The case also says a $45 course lab fee is due tomorrow.",
+        prompt: "Which detail would you check before deciding?"
+      },
+      {
+        title: "Maya’s textbook",
+        facts: [["Available after essentials", "$80"], ["Required textbook", "$50"], ["Book needed next week", "Yes"]],
+        suggestion: "Set aside $50 for the textbook and keep the remaining $30 available.",
+        reason: "The plan reserves the stated book cost and does not allocate more than the balance.",
+        evidence: "The case lists an $80 balance and a required $50 textbook.",
+        prompt: "Does the suggestion account for the stated cost and timing?"
+      },
+      {
+        title: "Avery’s bus pass",
+        facts: [["Available after essentials", "$65"], ["Weekly bus pass", "$25"], ["Pass needed for classes", "Yes"]],
+        suggestion: "Buy the $25 pass and leave $40 for other listed needs.",
+        reason: "The suggestion covers the stated transportation need and preserves the rest of the balance.",
+        evidence: "The case lists a $65 balance and a $25 weekly pass.",
+        prompt: "What could change this plan, even if the arithmetic checks out?"
+      }
+    ];
+
+    let activeCase = 0;
+    let evidenceView = true;
+    const $ = (id) => document.getElementById(id);
+
+    function renderScenarioButtons() {
+      const list = $("scenarioList");
+      list.replaceChildren();
+      cases.forEach((item, index) => {
+        const button = document.createElement("button");
+        button.className = "scenario-button";
+        button.type = "button";
+        button.textContent = `0${index + 1}  ${item.title}`;
+        button.setAttribute("aria-current", String(index === activeCase));
+        button.addEventListener("click", () => { activeCase = index; render(); });
+        list.append(button);
+      });
+    }
+
+    function render() {
+      const item = cases[activeCase];
+      $("caseLabel").textContent = `Case 0${activeCase + 1} · fictional`;
+      $("caseTitle").textContent = item.title;
+      $("suggestion").textContent = item.suggestion;
+      $("reason").textContent = item.reason;
+      $("evidence").textContent = item.evidence;
+      $("prompt").textContent = item.prompt;
+      $("details").hidden = !evidenceView;
+      $("reflection").hidden = !evidenceView;
+      $("plainMode").setAttribute("aria-pressed", String(!evidenceView));
+      $("cardMode").setAttribute("aria-pressed", String(evidenceView));
+      $("response").textContent = "";
+      const facts = $("facts");
+      facts.replaceChildren();
+      item.facts.forEach(([label, value]) => {
+        const cell = document.createElement("div");
+        cell.className = "fact";
+        const name = document.createElement("span");
+        name.textContent = label;
+        const amount = document.createElement("strong");
+        amount.textContent = value;
+        cell.append(name, amount);
+        facts.append(cell);
+      });
+      renderScenarioButtons();
+    }
+
+    $("plainMode").addEventListener("click", () => { evidenceView = false; render(); });
+    $("cardMode").addEventListener("click", () => { evidenceView = true; render(); });
+    document.querySelectorAll("[data-choice]").forEach((button) => {
+      button.addEventListener("click", () => {
+        $("response").textContent = `Demo choice: ${button.dataset.choice}. It was not saved.`;
+      });
+    });
+    render();
+  </script>
+</body>
+</html>

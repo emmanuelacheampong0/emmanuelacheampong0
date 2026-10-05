@@ -34,12 +34,16 @@ I’m growing toward **software engineering and product management** while explo
 - Added randomized computer behavior, conditional logic, input handling, and iterative gameplay; tested functions, debugged incorrect outcomes, and checked edge cases.
 - Developed the game incrementally through decomposition and testing, growing a simple ruleset into a functional interactive game.
 
-### 🟩 Neddle — Wordle-Style Game
-**In development · Python**
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/roshambo">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/roshambo.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/test_roshambo.py">Tests</a>
 
-- Developing an interactive word-guessing game with Python functions, strings, sequences, iteration, and conditional logic.
-- Designing character-by-character feedback to identify correct, misplaced, and incorrect letters and update game state across attempts.
-- Applying decomposition, debugging, and iterative testing to build smaller components and integrate them into a complete playable experience.
+### 🟩 Neddle — Wordle-Style Game
+**Playable prototype · Python · Elon University**
+
+- Built a playable word-guessing game with six attempts, interactive feedback, input validation, and replay.
+- Implemented character-by-character feedback for correct, misplaced, and incorrect letters, including duplicate-letter handling.
+- Used decomposition, debugging, and iterative testing to turn the game rules into reusable, testable Python functions.
+
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/neddle">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/neddle.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/test_neddle.py">Tests</a>
 
 <table>
   <tr>
@@ -57,6 +61,14 @@ I’m growing toward **software engineering and product management** while explo
     </td>
   </tr>
 </table>
+
+## 🧪 AI Product Research
+
+**Designing AI Budgeting Tools Students Can Question** · *Research proposal + interactive prototype*
+
+Exploring whether explanations, visible evidence, and reflection prompts help students evaluate AI suggestions more carefully. The prototype compares two product interfaces using fictional budget scenarios; it does not use live AI or collect responses. The study is proposed and has not been conducted.
+
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/proposal.md">Read the full proposal</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/prototype/index.html">View prototype source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/study-materials.md">Study materials</a>
 
 ## 🔎 Ideas I’m Exploring
 
