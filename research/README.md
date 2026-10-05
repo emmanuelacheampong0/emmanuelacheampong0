@@ -4,6 +4,8 @@
 
 This project asks how an AI product should present its recommendations so that college students can evaluate them instead of accepting them automatically. It connects human–AI interaction, product management, interface design, and software prototyping through a fictional budgeting task.
 
+**Development note:** The proposal, study materials, and prototype were prepared with AI-assisted drafting and coding at Emmanuel’s direction. They are a starting point for his review and revision, not a claim of completed independent research.
+
 ## Start here
 
 - [Full research proposal](proposal.md) — question, literature review, hypotheses, method, analysis, ethics, timeline, and references

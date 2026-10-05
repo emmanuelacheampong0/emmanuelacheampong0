@@ -10,6 +10,10 @@ Two beginner-friendly games, built in both Python and the browser.
 
 The browser pages are self-contained and use no packages or external images. To play locally, download the repository and open `games/index.html` in a browser.
 
+## Development note
+
+These portfolio editions were prepared with AI coding assistance from Emmanuel’s course-project descriptions. They are learning prototypes; review the code and compare it with the original assignment before presenting or submitting it as independent work.
+
 ## Run the Python versions
 
 ```bash

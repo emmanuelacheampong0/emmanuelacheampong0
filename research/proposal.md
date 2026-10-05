@@ -2,7 +2,7 @@
 
 ## The role of explanations, evidence, and reflection prompts in calibrated reliance
 
-**Research proposal · October 2026 · Emmanuel Sefah Acheampong**
+**Research proposal · October 2026 · Project owner: Emmanuel Sefah Acheampong**
 
 > This document proposes a study and prototype. It reports no participant data, results, or completed research.
 
@@ -193,4 +193,4 @@ Vasconcelos, H., Jörke, M., Grunde-McLaughlin, M., Gerstenberg, T., Bernstein, 
 
 ## Research integrity note
 
-This is a proposed undergraduate research direction written to support learning and project planning. The references are starting points, not an exhaustive literature review. The author should read the complete papers, verify citation formatting, and refine the review with a faculty mentor before submission or recruitment. No results are fabricated or implied.
+This is a proposed undergraduate research direction written to support learning and project planning. The proposal and prototype were prepared with AI-assisted drafting and coding at Emmanuel’s direction. The references are starting points, not an exhaustive literature review. Emmanuel should read the complete papers, verify citation formatting, and refine the review with a faculty mentor before submission or recruitment. No results are fabricated or implied.
