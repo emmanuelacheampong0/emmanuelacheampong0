@@ -1,28 +1,30 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/hello.gif" width="100%" alt="Hello, I’m Emmanuel Acheampong. Computer Science at Elon University. I’m building what I learned two minutes ago." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/hello.gif" width="100%" alt="Hello, I’m Emmanuel Acheampong. Computer Science at Elon University. I’m building what I learned two minutes ago." />
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/badge-software.svg" width="400" alt="Building: Software Engineering" /><br />
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/badge-ai.svg" width="406" alt="Exploring: AI and Machine Learning" /><br />
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/badge-product.svg" width="394" alt="Product Management and Design" /><br />
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/badge-design.svg" width="406" alt="Creative: UI/UX and Visual Design" /><br />
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/badge-scholars.svg" width="510" alt="Elon: Odyssey and Renaissance Scholar" /><br />
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-cs.svg" width="400" alt="ELON UNIVERSITY · COMPUTER SCIENCE" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-ai.svg" width="400" alt="ARTIFICIAL INTELLIGENCE · EXPLORING & LEARNING" /></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-software.svg" width="400" alt="SOFTWARE ENGINEERING · BUILDING PROJECTS" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-product.svg" width="400" alt="PRODUCT MANAGEMENT · PRODUCT DESIGN" /></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-visual.svg" width="400" alt="VISUAL DESIGN · STORYTELLING" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-scholars.svg" width="400" alt="ODYSSEY SCHOLAR · RENAISSANCE SCHOLAR" /></p>
 
-**[Projects](#selected-work) · [Design](#visual-practice) · [Research](#research-lab) · [Learning](#learning-in-public) · [Connect](#lets-connect)**
+<p><strong>Software engineering · artificial intelligence · product thinking · visual design</strong></p>
+
+**[Selected work](#selected-work) · [Design](#visual-practice) · [Research](#research-lab) · [Learning](#learning-in-public) · [Community](#community-and-leadership) · [Connect](#lets-connect)**
 
 </div>
-
 ## I’m building what I learned two minutes ago.
 
 **Always learning and building.** Break it down. Understand it. Fix it. Make something useful.
 
-<p align="center"><a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/portfolio.svg" width="280" alt="Explore Emmanuel’s interactive portfolio" /></a></p>
+<p align="center"><a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/hello.svg" width="280" alt="Explore Emmanuel’s interactive portfolio" /></a></p>
 
 I’m **Emmanuel Sefah Acheampong**, a Ghanaian Computer Science student at **Elon University**, an **Odyssey Scholar** and **Renaissance Scholar**, and a **design enthusiast**. I’m early in my software journey, with a designer’s instinct to ask how something works—and how it feels to use.
 
 My interests meet where **software engineering, product management, AI, design, health and finance** meet people. This page is my public laboratory: playable programs, visual stories, product case studies, research proposals, and the questions behind them.
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-philosophy.svg" width="100%" alt="01. Build to understand. Curiosity is a practice." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-philosophy.svg" width="100%" alt="01. Build to understand. Curiosity is a practice." />
 
 ### My philosophy
 
@@ -38,28 +40,28 @@ I’m drawn to the space between analytical thinking and creativity: the logic i
 
 ## Selected work
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-work.svg" width="100%" alt="02. Small builds. Real questions. Code, play, product thinking and visual storytelling." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-work.svg" width="100%" alt="02. Small builds. Real questions. Code, play, product thinking and visual storytelling." />
 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/roshambo/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/roshambo.svg" width="100%" alt="Roshambo preview — Rock, Paper, Scissors. Click to play." /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/roshambo/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/roshambo.svg" width="100%" alt="Roshambo preview — Rock, Paper, Scissors. Click to play." /></a>
 <h3>Roshambo</h3>
 <p><strong>Python foundations → complete browser game</strong></p>
 <p>A classroom ruleset grown into a modular, playable Rock-Paper-Scissors game.</p>
 <p><strong>Problem:</strong> turn a familiar game into precise, reusable program logic.<br /><strong>Solution:</strong> separate choice handling, randomized computer behavior, winner evaluation and replay.<br /><strong>Learned:</strong> functions, conditionals, loops, input handling, decomposition, testing and debugging.</p>
 <p><code>Python</code> <code>JavaScript</code> <code>HTML/CSS</code><br /><strong>Status:</strong> Playable · Python + browser editions</p>
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/roshambo/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/play.svg" width="170" alt="Play Roshambo" /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/roshambo/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/play.svg" width="170" alt="Play Roshambo" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/roshambo">View code &amp; build notes ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/neddle/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/neddle.svg" width="100%" alt="Neddle preview — six tries, five letters. Click to play." /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/neddle/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/neddle.svg" width="100%" alt="Neddle preview — six tries, five letters. Click to play." /></a>
 <h3>Neddle</h3>
 <p><strong>A little word puzzle. Careful letter logic.</strong></p>
 <p>A Wordle-style game with six attempts, feedback, validation and a fresh-word replay.</p>
 <p><strong>Problem:</strong> give fair feedback when letters repeat across a guess.<br /><strong>Solution:</strong> count unmatched letters after exact matches, then evaluate misplaced letters.<br /><strong>Learned:</strong> strings, sequences, iteration, game state, edge cases and incremental integration.</p>
 <p><code>Python</code> <code>JavaScript</code> <code>HTML/CSS</code><br /><strong>Status:</strong> Playable prototype · curated word list</p>
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/neddle/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/play.svg" width="170" alt="Play Neddle" /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/neddle/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/play.svg" width="170" alt="Play Neddle" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/neddle">View code &amp; build notes ↗</a></p>
 </td>
 </tr>
@@ -70,7 +72,7 @@ I’m drawn to the space between analytical thinking and creativity: the logic i
 <p><strong>Black Arts Movement · interactive exhibition</strong></p>
 <p><strong>Problem:</strong> express identity, memory and resistance through a digital story.<br /><strong>Solution:</strong> a Photoshop collage and immersive HTML exhibition connecting Black artistic expression with Ghanaian/Akan visual traditions.<br /><strong>Learned:</strong> visual hierarchy, composition, cultural storytelling and making artwork explorable.</p>
 <p><code>HTML/CSS</code> <code>Photoshop</code> <code>Visual storytelling</code><br /><strong>Status:</strong> Live exhibition</p>
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/projects/black-arts/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/explore.svg" width="170" alt="Explore the Black Arts Movement exhibition" /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/projects/black-arts/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/explore.svg" width="170" alt="Explore the Black Arts Movement exhibition" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/Black-Arts-Movement">View original project ↗</a></p>
 </td>
 <td width="50%" valign="top">
@@ -79,27 +81,27 @@ I’m drawn to the space between analytical thinking and creativity: the logic i
 <p><strong>Product design · brand · health communication</strong></p>
 <p><strong>Problem:</strong> help a youth-led sickle-cell initiative communicate a complex mission clearly.<br /><strong>Solution:</strong> brand guidelines, digital campaigns, early-user communication and product-facing visuals for an emerging AI companion concept.<br /><strong>Learned:</strong> connect user needs, trust, consistent branding, product strategy and engagement feedback.</p>
 <p><code>Adobe Creative Cloud</code> <code>Product communication</code><br /><strong>Status:</strong> Case study · role: Social Media &amp; Engagement Lead</p>
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/projects/voima/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/explore.svg" width="170" alt="View the Voima case study" /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/projects/voima/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/explore.svg" width="170" alt="View the Voima case study" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/Voima-Project">View original project ↗</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/research/prototype/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/budget.svg" width="100%" alt="Forma: an AI budgeting interface study showing evidence, limits and reflection." /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/research/prototype/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/budget.svg" width="100%" alt="Forma: an AI budgeting interface study showing evidence, limits and reflection." /></a>
 <h3>Budget advice you can question</h3>
 <p><strong>AI × product design × student FinTech</strong></p>
 <p><strong>Question:</strong> can evidence and reflection cues help students evaluate an AI suggestion?<br /><strong>Current artifact:</strong> a research proposal, fictional budgeting scenarios and an interactive comparison of plain text with an evidence card.<br /><strong>Next:</strong> expert review, refinement and a supervised pilot.</p>
 <p><code>Explainable AI</code> <code>UX research</code> <code>HTML/CSS/JS</code><br /><strong>Status:</strong> Proposal + scripted prototype · no participants or findings</p>
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/research/prototype/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/prototype.svg" width="170" alt="Try the fictional research prototype" /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/research/prototype/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/prototype.svg" width="170" alt="Try the fictional research prototype" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/proposal.md">Read proposal ↗</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/research/prototype">View code ↗</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/drug-discovery.md"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/compound.svg" width="100%" alt="AI and drug discovery: uncertainty-aware compound prioritization research brief." /></a>
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/drug-discovery.md"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/compound.svg" width="100%" alt="AI and drug discovery: uncertainty-aware compound prioritization research brief." /></a>
 <h3>Uncertainty-aware compound prioritization</h3>
 <p><strong>Machine learning × biomedical research</strong></p>
 <p><strong>Question:</strong> how do scaffold-aware splits and uncertainty estimates change the evaluation of public bioactivity predictions?<br /><strong>Current artifact:</strong> a sourced research brief with a proposed benchmark, baselines, evaluation and limitations.<br /><strong>Next:</strong> choose one public dataset and reproduce a simple baseline.</p>
 <p><code>ML evaluation</code> <code>Public datasets</code> <code>Research design</code><br /><strong>Status:</strong> Scoping · no trained models or experimental results</p>
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/drug-discovery.md"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/research.svg" width="170" alt="Read the drug discovery research brief" /></a>
+<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/drug-discovery.md"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/research.svg" width="170" alt="Read the drug discovery research brief" /></a>
 <p><a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/research">Open research source ↗</a></p>
 </td>
 </tr>
@@ -114,7 +116,7 @@ I contributed to a plastic-waste-to-fuel / pyrolysis STEM prototype and voluntee
 
 ## Visual practice
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-design.svg" width="100%" alt="03. A technical mind. A designer’s eye. Selected visuals from my projects." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-design.svg" width="100%" alt="03. A technical mind. A designer’s eye. Selected visuals from my projects." />
 
 I use visual storytelling to make ideas legible: a product someone can recognize, a campaign someone can act on, or a composition that carries cultural memory.
 
@@ -141,7 +143,7 @@ The final collage is my composition, built from transformed reference imagery. S
 
 ## Research lab
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-research.svg" width="100%" alt="04. Questions worth staying with. An emerging undergraduate research workspace." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-research.svg" width="100%" alt="04. Questions worth staying with. An emerging undergraduate research workspace." />
 
 I’m learning to move from an interesting idea to an answerable question: **literature → question → method → prototype or experiment → evidence → interpretation → limitations**. These are research directions and proposals. Findings will be added only when there is evidence to report.
 
@@ -196,7 +198,7 @@ The drug-discovery direction concerns computational evaluation, not clinical or 
 
 ## Learning in public
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-learning.svg" width="100%" alt="05. Always learning and building. The subject matters. So does the reason." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-learning.svg" width="100%" alt="05. Always learning and building. The subject matters. So does the reason." />
 
 | What I’m learning | Why it matters to what I build |
 |---|---|
@@ -210,13 +212,13 @@ The drug-discovery direction concerns computational evaluation, not clinical or 
 
 ### Toolkit
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/toolkit.svg" width="100%" alt="Engineering: Python, HTML, Git and tests. Product: discovery and metrics. Design: Figma and UI/UX. Research: questions, literature and methods. Creative: Adobe Creative Cloud. Development: VS Code and GitHub." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/toolkit.svg" width="100%" alt="Engineering: Python, HTML, Git and tests. Product: discovery and metrics. Design: Figma and UI/UX. Research: questions, literature and methods. Creative: Adobe Creative Cloud. Development: VS Code and GitHub." />
 
 These are tools I use or am learning through projects. I’m building depth through practice, feedback and collaboration.
 
 ## Principles
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-principles.svg" width="100%" alt="06. How I try to work. Care, curiosity, clarity and useful things." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-principles.svg" width="100%" alt="06. How I try to work. Care, curiosity, clarity and useful things." />
 
 | | Principle | What it means in practice |
 |---|---|---|
@@ -228,7 +230,7 @@ These are tools I use or am learning through projects. I’m building depth thro
 
 ## Community and leadership
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-community.svg" width="100%" alt="07. Learning happens with people. University, community, creativity and collaboration." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-community.svg" width="100%" alt="07. Learning happens with people. University, community, creativity and collaboration." />
 
 <table><tr><td width="50%" valign="top">
 <h3>Academic &amp; community</h3>
@@ -247,7 +249,7 @@ These are tools I use or am learning through projects. I’m building depth thro
 
 ## Open notebook
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-notebook.svg" width="100%" alt="08. Free Read Code. Open source, open notes, unfinished questions." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-notebook.svg" width="100%" alt="08. Free Read Code. Open source, open notes, unfinished questions." />
 
 **Free Read Code** is an invitation: inspect how the games work, question a research assumption, follow a prototype, or learn alongside me. I want this GitHub to show the process as well as the polished result.
 
@@ -262,7 +264,7 @@ Research questions, literature notes, architecture decisions, debugging observat
 
 ## GitHub activity
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-activity.svg" width="100%" alt="09. The lab, in motion. A daily snapshot of public GitHub activity." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-activity.svg" width="100%" alt="09. The lab, in motion. A daily snapshot of public GitHub activity." />
 
 <a href="https://github.com/emmanuelacheampong0?tab=overview"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/activity.svg" width="100%" alt="Daily GitHub activity: contributions, current and longest streak within the last year, public repositories and language activity. See the update timestamp in the card." /></a>
 
@@ -270,19 +272,19 @@ Research questions, literature notes, architecture decisions, debugging observat
 
 ## Let’s connect
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/section-connect.svg" width="100%" alt="10. Let’s build something thoughtful. Open to teams that learn, question and make." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/section-connect.svg" width="100%" alt="10. Let’s build something thoughtful. Open to teams that learn, question and make." />
 
 I’m open to **software-engineering, product and technology internships; undergraduate research and research collaborations; open-source work; product and design collaborations; partnerships; and opportunities to learn with ambitious teams**.
 
 <p align="center">
-<a href="https://www.linkedin.com/in/emmanuel-acheampong0"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/linkedin.svg" width="180" alt="Connect with Emmanuel on LinkedIn" /></a>
-<a href="mailto:emmanuelacheampong816@gmail.com"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/email.svg" width="180" alt="Say hello by email" /></a>
-<a href="https://github.com/emmanuelacheampong0"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/github.svg" width="180" alt="Follow Emmanuel on GitHub" /></a>
+<a href="https://www.linkedin.com/in/emmanuel-acheampong0"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/linkedin.svg" width="180" alt="Connect with Emmanuel on LinkedIn" /></a>
+<a href="mailto:emmanuelacheampong816@gmail.com"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/email.svg" width="180" alt="Say hello by email" /></a>
+<a href="https://github.com/emmanuelacheampong0"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/github.svg" width="180" alt="Follow Emmanuel on GitHub" /></a>
 </p>
 
 <p align="center"><a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/">Visit the companion portfolio ↗</a> · <a href="mailto:emmanuelacheampong816@gmail.com">emmanuelacheampong816@gmail.com</a></p>
 
-<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-terminal/footer.svg" width="100%" alt="Building with curiosity. Building with people in mind. Thanks for visiting." />
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/footer.svg" width="100%" alt="Building with curiosity. Building with people in mind. Thanks for visiting." />
 
 
 
