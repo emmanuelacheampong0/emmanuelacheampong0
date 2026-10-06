@@ -22,17 +22,17 @@ def streaks(days,today):
         current+=1;cursor-=dt.timedelta(days=1)
     return current,longest
 
-def text(x,y,value,size=16,color='#eef3ff',font='Arial,sans-serif'):
+def text(x,y,value,size=16,color='#191722',font='Arial,sans-serif'):
     return f'<text x="{x}" y="{y}" font-family="{font}" font-size="{size}" fill="{color}">{html.escape(str(value))}</text>'
 
 def render(user,now):
     cal=user['contributionsCollection']['contributionCalendar'];days=[d for w in cal['weeks'] for d in w['contributionDays']]
     current,longest=streaks(days,now.date());repos=user['repositories'];nodes=repos['nodes']
-    body=text(35,37,'PUBLIC WORK / LAST 12 MONTHS',13,'#a0b0cb','monospace')+text(35,62,'Updated '+now.strftime('%Y-%m-%d %H:%M UTC'),11,'#a0b0cb','monospace')
+    body=text(35,37,'PUBLIC WORK / LAST 12 MONTHS',13,'#635c75','monospace')+text(35,62,'Updated '+now.strftime('%Y-%m-%d %H:%M UTC'),11,'#635c75','monospace')
     for i,(v,label) in enumerate([(cal['totalContributions'],'CONTRIBUTIONS'),(current,'CURRENT STREAK / DAYS'),(longest,'LONGEST STREAK / DAYS'),(repos['totalCount'],'PUBLIC REPOSITORIES')]):
-        x=35+i*290;body+=text(x,125,f'{v:,}',45,'#71c8ff','Arial,sans-serif')+text(x,157,label,11,'#a0b0cb','monospace')
-    body+='<line x1="35" y1="183" x2="1165" y2="183" stroke="#253454"/>'
-    colors=['#18253d','#2e4689','#4869b5','#628cd7','#8bc8ff']
+        x=35+i*290;body+=text(x,125,f'{v:,}',45,'#7246d8','Arial,sans-serif')+text(x,157,label,11,'#635c75','monospace')
+    body+='<line x1="35" y1="183" x2="1165" y2="183" stroke="#c9c2d8"/>'
+    colors=['#dcd5eb','#cab5ef','#a786df','#865cce','#6237b4']
     for wi,w in enumerate(cal['weeks']):
         for d in w['contributionDays']:
             date=dt.date.fromisoformat(d['date']);count=int(d['contributionCount']);level=0 if not count else 1 if count<3 else 2 if count<6 else 3 if count<10 else 4
@@ -43,9 +43,9 @@ def render(user,now):
         if lang and lang not in langs:langs.append(lang)
     body+=text(35,366,'Recent public repo languages: '+(', '.join(langs[:8]) or 'Not yet available'),14)
     recent=[r['name'] for r in nodes if r.get('pushedAt')][:3]
-    body+=text(35,395,'Recently active: '+(' · '.join(recent) or 'Not yet available'),12,'#a0b0cb')
-    body+=text(35,428,'Streaks use contribution-calendar dates within this 12-month window. Public data only.',11,'#a0b0cb')
-    return '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="455" viewBox="0 0 1200 455" role="img"><title>Daily GitHub public activity snapshot</title><rect width="1200" height="455" rx="12" fill="#0c1327"/>'+body+'</svg>'
+    body+=text(35,395,'Recently active: '+(' · '.join(recent) or 'Not yet available'),12,'#635c75')
+    body+=text(35,428,'Streaks use contribution-calendar dates within this 12-month window. Public data only.',11,'#635c75')
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="455" viewBox="0 0 1200 455" role="img"><title>Daily GitHub public activity snapshot</title><rect width="1200" height="455" rx="12" fill="#ede9f7"/>'+body+'</svg>'
 
 def main():
     token=os.environ['GITHUB_TOKEN'];login=os.environ.get('PROFILE_LOGIN','emmanuelacheampong0')
@@ -55,3 +55,4 @@ def main():
     OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(render(result['data']['user'],dt.datetime.now(dt.timezone.utc)))
     print('Updated public activity card.')
 if __name__=='__main__':main()
+
