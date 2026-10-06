@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Building Voima's Brand & Digital Product Presence | Emmanuel Sefah Acheampong</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1B0F0C;
+    --paper: #FBEEDC;
+    --paper-raised: #FFFFFF;
+    --red: #E03B2E;
+    --red-deep: #A11313;
+    --maroon: #430D0D;
+    --gold: #EFA23B;
+    --muted: #7A5B49;
+    --rule: #E8CFAE;
+    --on-dark: #FBEEDC;
+    font-family: 'IBM Plex Sans', system-ui, sans-serif, -apple-system;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #F6ECDD;
+      --paper: #170907;
+      --paper-raised: #241009;
+      --red: #FF6A57;
+      --muted: #C9AF92;
+      --rule: #3B211A;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #F6ECDD;
+    --paper: #170907;
+    --paper-raised: #241009;
+    --red: #FF6A57;
+    --muted: #C9AF92;
+    --rule: #3B211A;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(circle at 12% 0%, rgba(224,59,46,0.14), transparent 42%),
+      radial-gradient(circle at 100% 18%, rgba(239,162,59,0.16), transparent 40%),
+      var(--paper);
+    color: var(--ink);
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+    line-height: 1.55;
+  }
+  h1, h2, h3, .serif {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 28px; }
+  header.hero {
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 8% -20%, #D8412F 0%, var(--red-deep) 45%, var(--maroon) 78%, #200604 100%);
+    padding: 96px 0 76px;
+  }
+  header.hero::before {
+    content: "";
+    position: absolute;
+    width: 520px; height: 520px;
+    top: -200px; right: -140px;
+    background: radial-gradient(circle, rgba(239,162,59,0.38), transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  header.hero .wrap { position: relative; z-index: 1; }
+  .kicker {
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin: 0 0 18px;
+  }
+  .hero h1 { color: var(--on-dark); }
+  .hero .byline, .hero .byline strong { color: var(--on-dark); }
+  .hero .byline { opacity: 0.82; }
+  .hero p.lede { color: var(--on-dark); opacity: 0.88; }
+  h1 {
+    font-size: clamp(2rem, 5.5vw, 3rem);
+    line-height: 1.12;
+    margin: 0 0 22px;
+  }
+  .byline {
+    color: var(--muted);
+    font-size: 1.02rem;
+    margin: 0 0 6px;
+  }
+  .byline strong { color: var(--ink); font-weight: 600; }
+  section { padding: 52px 0; border-bottom: 1px solid var(--rule); }
+  section:last-of-type { border-bottom: none; }
+  h2 {
+    font-size: 1.55rem;
+    margin: 0 0 6px;
+  }
+  .section-num {
+    display: inline-block;
+    color: var(--red);
+    font-family: 'Source Serif 4', serif;
+    font-size: 1rem;
+    margin-right: 8px;
+  }
+  p { max-width: 62ch; color: var(--ink); }
+  p.lede { color: var(--muted); font-size: 1.05rem; }
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 24px;
+  }
+  @media (max-width: 620px) { .two-col, .three-col { grid-template-columns: 1fr; } }
+  .card {
+    background: linear-gradient(135deg, var(--red-deep), var(--maroon));
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px rgba(67,13,13,0.22);
+  }
+  .card h3 { font-size: 1.05rem; margin: 0 0 10px; font-family: 'IBM Plex Sans'; font-weight: 600; color: var(--gold); }
+  .card p { margin: 0; font-size: 0.96rem; color: var(--on-dark); opacity: 0.88; max-width: none; }
+  .capabilities {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--rule);
+  }
+  .capabilities span {
+    display: inline-block;
+    background: rgba(224,59,46,0.08);
+    border: 1px solid var(--red);
+    color: var(--red-deep);
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 5px 12px;
+    border-radius: 999px;
+    margin: 4px 6px 4px 0;
+  }
+  .capabilities span::before { content: none; }
+  .swatch-row { display: flex; gap: 10px; margin: 26px 0 20px; }
+  .swatch { flex: 1; height: 54px; border-radius: 4px; }
+  .swatch-labels { display: flex; justify-content: space-between; margin-top: -14px; font-size: 0.8rem; color: var(--muted); }
+  ul.principles { margin: 14px 0 0; padding: 0; list-style: none; }
+  ul.principles li {
+    padding: 10px 0;
+    border-top: 1px solid var(--rule);
+    font-size: 0.98rem;
+    color: var(--ink);
+  }
+  ul.principles li:last-child { border-bottom: 1px solid var(--rule); }
+  .three-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 24px; }
+  .three-col h3 { color: var(--red); font-size: 1rem; margin: 0 0 8px; font-weight: 600; }
+  .three-col p { font-size: 0.94rem; color: var(--muted); margin: 0; max-width: none; }
+  .metrics-panel {
+    background: radial-gradient(ellipse at 100% 0%, #6B1414, var(--maroon) 55%, #1B0503 100%);
+    border-radius: 18px;
+    padding: 34px 28px 26px;
+    margin-top: 10px;
+  }
+  .metrics { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  @media (max-width: 480px) { .metrics { grid-template-columns: 1fr; } }
+  .metric {
+    background: rgba(255,255,255,0.07);
+    padding: 20px 22px;
+    border-radius: 8px;
+    border-left: 3px solid var(--gold);
+  }
+  .metric .num { font-family: 'Source Serif 4', serif; font-size: 2rem; color: var(--on-dark); line-height: 1; }
+  .metric .label { font-size: 0.85rem; color: var(--on-dark); opacity: 0.72; margin-top: 6px; }
+  .metric .delta { font-size: 0.8rem; margin-top: 4px; }
+  .delta.up { color: #8FE39A; }
+  .delta.down { color: var(--on-dark); opacity: 0.6; }
+  .note {
+    margin-top: 18px;
+    font-size: 0.88rem;
+    color: var(--muted);
+    font-style: italic;
+    max-width: 62ch;
+  }
+  .learnings { margin-top: 8px; }
+  .learning {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 18px;
+    padding: 20px 0;
+    border-top: 1px solid var(--rule);
+  }
+  @media (max-width: 560px) { .learning { grid-template-columns: 1fr; gap: 4px; } }
+  .learning h3 { margin: 0; font-family: 'Source Serif 4', serif; font-weight: 500; font-size: 1.05rem; color: var(--red-deep); }
+  .learning p { margin: 0; font-size: 0.98rem; max-width: none; }
+  footer.reveal {
+    background: radial-gradient(ellipse at 90% 100%, #6B1414, var(--maroon) 55%, #1B0503 100%);
+    padding: 52px 0 68px;
+    text-align: left;
+  }
+  footer .name { font-family: 'Source Serif 4', serif; font-size: 1.2rem; color: var(--on-dark); }
+  footer .role { color: var(--on-dark); opacity: 0.75; font-size: 0.92rem; margin-top: 4px; }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero .kicker, .hero h1, .hero .byline, .hero .lede {
+      opacity: 0;
+      transform: translateY(16px);
+      animation: riseIn 0.75s cubic-bezier(.22,.68,.35,1) forwards;
+    }
+    .hero .kicker { animation-delay: .05s; }
+    .hero h1 { animation-delay: .16s; }
+    .hero .byline { animation-delay: .36s; }
+    .hero .lede { animation-delay: .48s; }
+    @keyframes riseIn { to { opacity: 1; transform: none; } }
+
+    section, footer.reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity .7s ease, transform .7s ease;
+    }
+    section.in-view, footer.reveal.in-view { opacity: 1; transform: none; }
+
+    .card, .metric { transition: transform .25s ease, box-shadow .25s ease; }
+    .card:hover, .metric:hover { transform: translateY(-4px); box-shadow: 0 14px 28px rgba(36,23,15,0.1); }
+
+    .shot-frame img, .campaign-shot img, .app-shot img { transition: transform .4s ease; }
+    .shot-frame:hover img, .campaign-shot:hover img, .app-shot:hover img { transform: scale(1.035); }
+    .campaign-shot { overflow: hidden; }
+
+    .swatch { transition: transform .25s ease; }
+    .swatch:hover { transform: scaleY(1.12); }
+
+    header.hero::before { animation: floatGlow 7s ease-in-out infinite alternate; }
+    @keyframes floatGlow { from { transform: translate(0,0); } to { transform: translate(-18px, 28px); } }
+  }
+
+  .brand-shots { display: grid; grid-template-columns: 1.3fr 1fr; gap: 14px; margin: 26px 0 8px; }
+  @media (max-width: 560px) { .brand-shots { grid-template-columns: 1fr; } }
+  .brand-shots img { width: 100%; display: block; border-radius: 6px; }
+  .shot-frame { background: var(--paper-raised); padding: 10px; border-radius: 8px; }
+  .app-shot { margin-top: 24px; max-width: 340px; }
+  .app-shot img { width: 100%; display: block; border-radius: 14px; box-shadow: 0 10px 30px rgba(0,0,0,0.18); }
+  .campaign-shot { margin-bottom: 14px; border-radius: 6px; overflow: hidden; }
+  .campaign-shot img { width: 100%; display: block; }
+</style>
+<style>[hidden]{display:none!important}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}.rv{opacity:1!important;transform:none!important}}</style></head>
+<body><nav style="padding:20px;text-align:center"><a href="../../">Back to portfolio</a> · <a href="https://github.com/emmanuelacheampong0/Voima-Project">Original project source</a></nav>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">Product · Brand · Engagement Case Study</p>
+    <h1>Building Voima's Brand &amp; Digital Product Presence</h1>
+    <p class="byline"><strong>Emmanuel Sefah Acheampong</strong>, Social Media &amp; Engagement Lead, Voima</p>
+    <p class="lede">Selected work in brand system design, digital campaigns, product communication, early-user recruitment, and engagement analytics for Voima, a youth-led sickle-cell initiative building an AI companion app for SCD management.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2><span class="section-num">01</span>The Challenge</h2>
+    <p class="lede">Voima works across education, advocacy, research, community engagement, technology, and digital health. The brand needed a consistent identity that could communicate trust and hope while making complex health information accessible.</p>
+    <div class="two-col">
+      <div class="card">
+        <h3>The communication problem</h3>
+        <p>Create a recognizable system that could work across social media, presentations, fundraising, partnerships, awareness campaigns, and product-facing communication.</p>
+      </div>
+      <div class="card">
+        <h3>The product opportunity</h3>
+        <p>Support the emerging Voima App with clear, user-friendly communication around daily check-ins, symptom patterns, tailored guidance, community support, and early-user testing.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="section-num">02</span>My Role &amp; Working Model</h2>
+    <p>My contribution sat between brand, product communication, digital engagement, and execution, translating organizational goals into assets and campaigns that people could understand and act on.</p>
+    <div class="two-col">
+      <div class="card">
+        <h3>Brand system</h3>
+        <p>Developed a 15-page brand guide covering logo use, color, typography, imagery, voice, applications, governance, and marketing.</p>
+      </div>
+      <div class="card">
+        <h3>Product communication</h3>
+        <p>Created product-facing communication for the Voima App and early-user test recruitment.</p>
+      </div>
+      <div class="card">
+        <h3>Campaign execution</h3>
+        <p>Designed awareness, educational, fundraising, and community-facing digital campaigns.</p>
+      </div>
+      <div class="card">
+        <h3>Engagement</h3>
+        <p>Used platform analytics and audience response to understand reach and guide content decisions.</p>
+      </div>
+    </div>
+    <div class="capabilities">
+      <span>Cross-functional coordination</span>
+      <span>Product positioning</span>
+      <span>Go-to-market communication</span>
+      <span>User acquisition</span>
+      <span>Stakeholder alignment</span>
+      <span>Metrics &amp; iteration</span>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="section-num">03</span>Building the Brand System</h2>
+    <p class="lede">Designed to keep Voima consistent across channels while communicating strength, dignity, accessibility, and hope.</p>
+    <div class="swatch-row">
+      <div class="swatch" style="background:#9C1414;"></div>
+      <div class="swatch" style="background:#F7E8EB; border:1px solid var(--rule);"></div>
+      <div class="swatch" style="background:#430D0D;"></div>
+    </div>
+    <div class="swatch-labels"><span>Deep red (Voima's core anchor)</span><span>Off-white (background)</span><span>Ink (text)</span></div>
+    <div class="brand-shots">
+      <div class="shot-frame"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-brand.jpg" alt="Voima brand banner"></div>
+      <div class="shot-frame"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-wordmark.jpg" alt="Sickle Cell Matters wordmark"></div>
+    </div>
+    <ul class="principles">
+      <li>Deep red as the core visual anchor</li>
+      <li>Open Sans / Montserrat / Lobster typography</li>
+      <li>Human-centered imagery</li>
+      <li>Professional but approachable voice</li>
+      <li>Clear calls to action</li>
+      <li>Consistent logo and presentation rules</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="section-num">04</span>Product Launch &amp; Early-User Recruitment</h2>
+    <p class="lede">The Voima App creative translated an emerging digital-health product into a simple user story: check in, understand patterns, receive tailored guidance, and access community support.</p>
+    <div class="app-shot"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-app.jpg" alt="Voima App onboarding screen mockup"></div>
+    <div class="two-col">
+      <div class="card">
+        <h3>Go-to-market contribution</h3>
+        <p>Positioned the app around everyday sickle-cell management, created launch communication, promoted the early-user test program and waitlist, and used a direct call to action to move awareness toward participation.</p>
+      </div>
+      <div class="card">
+        <h3>Product thinking</h3>
+        <p>Connected product features to user needs, turning internal product ideas into external communication that potential users could understand quickly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="section-num">05</span>Campaigns Across the User Journey</h2>
+    <p class="lede">The content system supported multiple goals at once: educate, build trust, recruit users, and mobilize support.</p>
+    <div class="three-col">
+      <div><div class="campaign-shot"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-campaign.jpg" alt="World Blood Donor Day campaign graphic"></div>
+        <h3>Awareness</h3>
+        <p>Health observance content designed to make sickle-cell and blood-donation messages visible and shareable.</p>
+      </div>
+      <div><div class="campaign-shot"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-fundraising.jpg" alt="Giving Month fundraising campaign graphic"></div>
+        <h3>Mobilization</h3>
+        <p>Fundraising communication that explains the mission and gives supporters a direct path to act.</p>
+      </div>
+      <div><div class="campaign-shot"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/projects/voima-health-info.jpg" alt="Did you know sickle cell education graphic"></div>
+        <h3>Education</h3>
+        <p>Accessible myth-busting and educational content designed for nontechnical audiences.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="section-num">06</span>Measuring Engagement</h2>
+    <div class="metrics-panel">
+    <div class="metrics">
+      <div class="metric">
+        <div class="num">2.4K</div>
+        <div class="label">Story views</div>
+      </div>
+      <div class="metric">
+        <div class="num">1,057</div>
+        <div class="label">LinkedIn followers (lifetime)</div>
+      </div>
+      <div class="metric">
+        <div class="num">322</div>
+        <div class="label">Search appearances, last 7 days</div>
+        <div class="delta up">▲ 8.8%</div>
+      </div>
+      <div class="metric">
+        <div class="num">57.4%</div>
+        <div class="label">Views from followers vs. 42.6% non-followers</div>
+      </div>
+    </div>
+    </div>
+    <p class="note">Snapshot metrics from supplied platform analytics. They show channel reach and audience activity; they are not presented as solely attributable to one person.</p>
+  </section>
+
+  <section>
+    <h2><span class="section-num">07</span>What I Learned</h2>
+    <div class="learnings">
+      <div class="learning">
+        <h3>Consistency is a product decision.</h3>
+        <p>A brand system reduces friction: teams know how to communicate, and users encounter a more coherent experience.</p>
+      </div>
+      <div class="learning">
+        <h3>Features need translation.</h3>
+        <p>Users do not experience a feature list; they experience whether a product makes sense for their life.</p>
+      </div>
+      <div class="learning">
+        <h3>Engagement is feedback.</h3>
+        <p>Analytics are useful when they inform the next content or communication decision, not when they are treated as vanity metrics.</p>
+      </div>
+      <div class="learning">
+        <h3>Leadership is coordination.</h3>
+        <p>Strong execution depends on turning broad goals into clear deliverables, aligning people, and moving work from idea to publication.</p>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+
+<footer class="reveal">
+  <div class="wrap">
+    <div class="name">Emmanuel Sefah Acheampong</div>
+    <div class="role">Product-minded builder · Designer · Computer Science student, Elon University</div>
+  </div>
+</footer>
+
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) { e.target.classList.add('in-view'); obs.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('section, footer.reveal').forEach(function(el) { obs.observe(el); });
+  }
+</script>
+</body>
+</html>
+

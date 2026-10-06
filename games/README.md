@@ -33,7 +33,7 @@ The Python versions require Python 3.10 or newer and no third-party packages.
 
 The browser versions are published with the profile site:
 
-- [Play Roshambo](https://emmanuelacheampong0.github.io/games/roshambo/)
-- [Play Neddle](https://emmanuelacheampong0.github.io/games/neddle/)
+- [Play Roshambo](https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/roshambo/)
+- [Play Neddle](https://emmanuelacheampong0.github.io/emmanuelacheampong0/games/neddle/)
 
 Each folder also includes the Python source, tests, and instructions to run locally.
