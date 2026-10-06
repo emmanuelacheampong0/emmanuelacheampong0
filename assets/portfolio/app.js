@@ -118,9 +118,23 @@
   let shape = 0;
   const setShape = value => {
     shape = value;
+    $('.sculpture').dataset.shape = String(value);
     document.querySelectorAll('[data-shape]').forEach(button => button.setAttribute('aria-pressed', String(Number(button.dataset.shape) === value)));
     window.dispatchEvent(new CustomEvent('portfolioShape', {detail:value}));
   };
   document.querySelectorAll('[data-shape]').forEach(button => button.addEventListener('click', () => setShape(Number(button.dataset.shape))));
   $('#spark').addEventListener('click', () => setShape((shape+1)%3));
+  setShape(0);
+  // The lightweight sculpture remains playable when WebGL is unavailable.
+  const orb = $('.fallback-orb');
+  let orbDrag = false, orbX = 0, orbTurn = -25;
+  orb.addEventListener('pointerdown', event => {
+    orbDrag = true; orbX = event.clientX; orb.setPointerCapture(event.pointerId);
+  });
+  orb.addEventListener('pointermove', event => {
+    if (!orbDrag) return;
+    orbTurn += (event.clientX - orbX) * .7; orbX = event.clientX;
+    orb.style.rotate = orbTurn+'deg';
+  });
+  ['pointerup','pointercancel','lostpointercapture'].forEach(type => orb.addEventListener(type, () => {orbDrag=false;}));
 })();
