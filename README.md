@@ -211,7 +211,7 @@ These are tools I use or am learning through projects. I’m building depth thro
 <p><strong>Elon University</strong><br />Computer Science undergraduate<br />Odyssey Scholar · Renaissance Scholar</p>
 <p><strong>ColorStack</strong><br />Community and connection in technology</p>
 <p><strong>YAFG Scholar · 2026</strong><br />Young Achievers Foundation Ghana</p>
-<p><strong>St. Hubert Seminary</strong><br />NSMQ participant · 2023<br />Science, leadership and environmental STEM experiences</p>
+<p><strong>St. Hubert Seminary</strong><br />Science, leadership and environmental STEM experiences</p>
 </td><td width="50%" valign="top">
 <h3>Making &amp; collaborating</h3>
 <p><strong>Adobe Student Ambassador</strong> · Elon University<br />Creative community and student engagement</p>
@@ -259,3 +259,4 @@ I’m open to **software-engineering, product and technology internships; underg
 <p align="center"><a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/">Visit the companion portfolio ↗</a> · <a href="mailto:emmanuelacheampong816@gmail.com">emmanuelacheampong816@gmail.com</a></p>
 
 <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/footer.svg" width="100%" alt="Building with curiosity. Building with people in mind. Thanks for visiting." />
+
