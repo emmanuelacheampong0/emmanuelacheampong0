@@ -6,7 +6,7 @@
 
 **Building with curiosity. Building with people in mind.**
 
-[Portfolio & project lab](https://emmanuelacheampong0.github.io/) · [Play Roshambo](https://emmanuelacheampong0.github.io/games/roshambo/) · [Play Neddle](https://emmanuelacheampong0.github.io/games/neddle/) · [Explore the Black Arts Movement](https://emmanuelacheampong0.github.io/projects/black-arts/)
+[Portfolio source](index.html) · [Games & local run guide](games/) · [Research notebook](research/)
 
 Always learning and building. *I’m building what I learned two minutes ago.*
 
@@ -22,9 +22,9 @@ This GitHub is my **open lab**: course projects, playable experiments, product c
 
 | Project | What it explores | Try it / read it |
 |---|---|---|
-| **Roshambo** | A Python game built through functions, conditionals, loops, random choices, testing, and debugging. | [Play](https://emmanuelacheampong0.github.io/games/roshambo/) · [Source & notes](games/roshambo/) |
-| **Neddle** | A six-try word game with input validation and duplicate-letter-aware feedback. | [Play](https://emmanuelacheampong0.github.io/games/neddle/) · [Source & notes](games/neddle/) |
-| **Our People, Our Stories, Our Art, Our Power** | An interactive visual-storytelling project connecting Black artistic expression with Ghanaian and Akan visual traditions. | [Explore the exhibition](https://emmanuelacheampong0.github.io/projects/black-arts/) · [Project repository](https://github.com/emmanuelacheampong0/Black-Arts-Movement) |
+| **Roshambo** | A Python game built through functions, conditionals, loops, random choices, testing, and debugging. | [Browser edition source](games/roshambo/index.html) · [Python source & notes](games/roshambo/) |
+| **Neddle** | A six-try word game with input validation and duplicate-letter-aware feedback. | [Browser edition source](games/neddle/index.html) · [Python source & notes](games/neddle/) |
+| **Our People, Our Stories, Our Art, Our Power** | An interactive visual-storytelling project connecting Black artistic expression with Ghanaian and Akan visual traditions. | [Exhibition page source](projects/black-arts/index.html) · [Original project repository](https://github.com/emmanuelacheampong0/Black-Arts-Movement) |
 | **Voima** | Product communication and visual design for a youth-led sickle-cell health initiative. | [Case study](https://github.com/emmanuelacheampong0/Voima-Project) |
 | **AI budgeting interface study** | A research proposal and prototype on explanations, uncertainty, and student decision-making. No study results are claimed. | [Proposal](research/proposal.md) · [Prototype](research/prototype/index.html) |
 
@@ -39,6 +39,8 @@ I’m developing questions at the intersection of AI, product decisions, softwar
 - **Software engineering:** What practices help a small program grow into a tested, understandable, maintainable product?
 
 [Open the research lab](research/) · [Read the AI budgeting proposal](research/proposal.md) · [Explore the product-discovery direction](research/ai-product-discovery.md) · [Read the drug-discovery brief](research/drug-discovery.md)
+
+The browser games and portfolio routes are included in this repository, and a GitHub Pages workflow is ready. **Live browser play is pending Pages enablement for this repository**; until then, use the Python versions locally via the [games guide](games/README.md).
 
 ## Learning in public
 
