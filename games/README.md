@@ -29,3 +29,11 @@ python3 -m unittest discover -s games/neddle -p 'test_*.py'
 ```
 
 The Python versions require Python 3.10 or newer and no third-party packages.
+# Play the games
+
+The browser versions are published with the profile site:
+
+- [Play Roshambo](https://emmanuelacheampong0.github.io/games/roshambo/)
+- [Play Neddle](https://emmanuelacheampong0.github.io/games/neddle/)
+
+Each folder also includes the Python source, tests, and instructions to run locally.

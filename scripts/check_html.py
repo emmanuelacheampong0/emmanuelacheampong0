@@ -8,7 +8,7 @@ from urllib.parse import urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = sorted((ROOT / "games").rglob("*.html")) + sorted((ROOT / "research").rglob("*.html"))
+PAGES = [ROOT / "index.html"] + sorted((ROOT / "games").rglob("*.html")) + sorted((ROOT / "research").rglob("*.html")) + sorted((ROOT / "projects").rglob("*.html"))
 
 
 class PageAudit(HTMLParser):
@@ -32,7 +32,9 @@ class PageAudit(HTMLParser):
         parsed = urlsplit(target)
         if parsed.scheme or target.startswith("//") or not parsed.path:
             return
-        destination = (self.path.parent / parsed.path).resolve()
+        destination = ((ROOT / parsed.path.lstrip("/")) if parsed.path.startswith("/") else (self.path.parent / parsed.path)).resolve()
+        if destination.is_dir():
+            destination = destination / "index.html"
         if not destination.exists():
             self.errors.append(f"missing local link: {target}")
 

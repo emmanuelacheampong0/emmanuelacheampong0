@@ -1,165 +1,87 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,55:1D4ED8,100:14B8A6&height=230&section=header&text=Emmanuel%20Sefah%20Acheampong&fontSize=34&fontColor=F8FAFC&animation=fadeIn&fontAlignY=35&desc=Computer%20Science%20%7C%20Software%20%7C%20Product%20%2B%20Design&descAlignY=58&descSize=15" alt="Emmanuel Sefah Acheampong — Computer Science, software, product, and design" />
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=18&pause=1100&color=2563EB&center=true&vCenter=true&width=640&height=42&lines=Hi%2C+I%E2%80%99m+Junior+%F0%9F%91%8B;Computer+Science+student+at+Elon;Design+enthusiast+%26+curious+builder" alt="Hi, I'm Junior — Computer Science student, design enthusiast, and curious builder" />
-  </a>
+# Emmanuel Sefah Acheampong
 
-  <p>
-    <img src="https://img.shields.io/badge/Computer%20Science-Elon%20University-1D4ED8?style=for-the-badge" alt="Computer Science at Elon University" />
-    <img src="https://img.shields.io/badge/Software%20Engineering-Learning-0F766E?style=for-the-badge" alt="Software Engineering" />
-    <img src="https://img.shields.io/badge/Product%20Management-Curious-7C3AED?style=for-the-badge" alt="Product Management" />
-    <img src="https://img.shields.io/badge/Design-Enthusiast-F97316?style=for-the-badge" alt="Design Enthusiast" />
-    <img src="https://img.shields.io/badge/Odyssey%20%26%20Renaissance-Scholars%20Program-275845?style=for-the-badge" alt="Odyssey and Renaissance Scholars Program" />
-    <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/actions/workflows/quality.yml"><img src="https://github.com/emmanuelacheampong0/emmanuelacheampong0/actions/workflows/quality.yml/badge.svg" alt="Automated project checks" /></a>
-  </p>
+### Computer Science @ Elon University · Builder · Design enthusiast
 
-  <em>Design-minded by nature. Learning to build thoughtful technology with code.</em>
+**Building with curiosity. Building with people in mind.**
+
+[Portfolio & project lab](https://emmanuelacheampong0.github.io/) · [Play Roshambo](https://emmanuelacheampong0.github.io/games/roshambo/) · [Play Neddle](https://emmanuelacheampong0.github.io/games/neddle/) · [Explore the Black Arts Movement](https://emmanuelacheampong0.github.io/projects/black-arts/)
+
+Always learning and building. *I’m building what I learned two minutes ago.*
+
 </div>
 
 ---
 
-## ✦ My Design Lens
+I’m an early-career Computer Science student at Elon University, an Odyssey Scholar and Renaissance Scholar, and a design enthusiast. I like taking things apart to understand how they work, then rebuilding them into something clearer and useful. I’m growing across software engineering and product management while exploring AI, human-centered design, research, health technology, and FinTech.
 
-I’m **Emmanuel “Junior” Acheampong**, a first-year Computer Science student at **Elon University** and a member of the **Odyssey & Renaissance Scholars Program**. I’m also a design enthusiast. I care about how a product works, how it feels to use, and whether it makes someone’s life a little easier. My creative background in graphic design and visual storytelling shapes how I approach software: start with people, make the experience clear, then build with purpose.
+This GitHub is my **open lab**: course projects, playable experiments, product case studies, research questions, and notes as they develop. I share what I’ve learned—and what I still need to test.
 
-I’m growing toward **software engineering and product management** while exploring **AI, research, and financial technology**. I’m especially interested in how thoughtful design can make complex tools feel more useful and accessible.
+## Selected work
 
-> **My philosophy:** Good technology should work well and feel clear to the people who use it.
+| Project | What it explores | Try it / read it |
+|---|---|---|
+| **Roshambo** | A Python game built through functions, conditionals, loops, random choices, testing, and debugging. | [Play](https://emmanuelacheampong0.github.io/games/roshambo/) · [Source & notes](games/roshambo/) |
+| **Neddle** | A six-try word game with input validation and duplicate-letter-aware feedback. | [Play](https://emmanuelacheampong0.github.io/games/neddle/) · [Source & notes](games/neddle/) |
+| **Our People, Our Stories, Our Art, Our Power** | An interactive visual-storytelling project connecting Black artistic expression with Ghanaian and Akan visual traditions. | [Explore the exhibition](https://emmanuelacheampong0.github.io/projects/black-arts/) · [Project repository](https://github.com/emmanuelacheampong0/Black-Arts-Movement) |
+| **Voima** | Product communication and visual design for a youth-led sickle-cell health initiative. | [Case study](https://github.com/emmanuelacheampong0/Voima-Project) |
+| **AI budgeting interface study** | A research proposal and prototype on explanations, uncertainty, and student decision-making. No study results are claimed. | [Proposal](research/proposal.md) · [Prototype](research/prototype/index.html) |
 
-## ✨ Selected Projects
+## Research notebook
 
-### 🎮 Roshambo — Rock Paper Scissors
-**Completed · Python · Elon University**
+I’m developing questions at the intersection of AI, product decisions, software, and people. These are learning directions and proposals—not completed studies or published findings.
 
-- Built a modular game with reusable functions to evaluate player and computer choices, determine outcomes, and separate game rules from user interaction.
-- Added randomized computer behavior, conditional logic, input handling, and iterative gameplay; tested functions, debugged incorrect outcomes, and checked edge cases.
-- Developed the game incrementally through decomposition and testing, growing a simple ruleset into a functional interactive game.
+- **AI + product discovery:** How can AI help a team notice themes in user feedback while preserving source context, minority viewpoints, and human judgment?
+- **Explainable AI + student FinTech:** Can interface choices help students inspect evidence, uncertainty, and trade-offs behind a budgeting suggestion?
+- **Machine learning + drug discovery:** How do scaffold-aware evaluation and uncertainty estimates change the way public bioactivity data can support early compound prioritization? This is computational exploration, not medical or drug-development advice.
+- **Health technology:** How might interfaces communicate complex health information in ways that support understanding, access, and informed conversations?
+- **Software engineering:** What practices help a small program grow into a tested, understandable, maintainable product?
 
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/roshambo">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/roshambo.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/index.html">Browser game source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/roshambo/test_roshambo.py">Tests</a>
+[Open the research lab](research/) · [Read the AI budgeting proposal](research/proposal.md) · [Explore the product-discovery direction](research/ai-product-discovery.md) · [Read the drug-discovery brief](research/drug-discovery.md)
 
-### 🟩 Neddle — Wordle-Style Game
-**Playable prototype · Python · Elon University**
+## Learning in public
 
-- Built a playable word-guessing game with six attempts, interactive feedback, input validation, and replay.
-- Implemented character-by-character feedback for correct, misplaced, and incorrect letters, including duplicate-letter handling.
-- Used decomposition, debugging, and iterative testing to turn the game rules into reusable, testable Python functions.
-
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games/neddle">Game guide</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/neddle.py">Python source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/index.html">Browser game source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/neddle/test_neddle.py">Tests</a>
-
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/games/index.html">Games gallery source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/tree/main/games">All game files and run instructions</a>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎨 Black Arts Movement</h3>
-      <p><strong>Interactive visual storytelling · HTML</strong></p>
-      <p>An academic digital project exploring the Black Arts Movement through visual storytelling and Ghanaian Adinkra symbolism.</p>
-      <p><a href="https://github.com/emmanuelacheampong0/Black-Arts-Movement">Explore the project</a> · <a href="https://github.com/emmanuelacheampong0/Black-Art-Exhibition">View the exhibition</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💚 Voima</h3>
-      <p><strong>Digital health · Product and design</strong></p>
-      <p>A digital health concept and case study connecting product thinking, design, and health-focused communication.</p>
-      <p><a href="https://github.com/emmanuelacheampong0/Voima-Project">Explore Voima</a></p>
-    </td>
-  </tr>
-</table>
-
-## 🧪 AI Product Research
-
-**Designing AI Budgeting Tools Students Can Question** · *Research proposal + interactive prototype*
-
-Exploring whether explanations, visible evidence, and reflection prompts help students evaluate AI suggestions more carefully. The prototype compares two product interfaces using fictional budget scenarios; it does not use live AI or collect responses. The study is proposed and has not been conducted.
-
-<a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/proposal.md">Read the full proposal</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/prototype/index.html">View prototype source</a> · <a href="https://github.com/emmanuelacheampong0/emmanuelacheampong0/blob/main/research/study-materials.md">Study materials</a>
-
-## 🔎 Ideas I’m Exploring
-
-| Interest | A question I’m curious about |
+| Area | Why I’m learning it |
 |---|---|
-| **AI & software** | How can AI features be useful, understandable, and dependable? |
-| **FinTech & product design** | How can financial tools feel clearer and more accessible to students and underserved communities? |
-| **Product management** | How can research and user feedback help teams build the right thing? |
-| **Health & climate** | How can human-centered technology support healthier, more resilient communities? |
+| Software engineering | To move from small exercises toward complete systems: structure, tests, debugging, documentation, deployment, and maintenance. |
+| Python | To strengthen functions, strings, sequences, iteration, modularity, problem solving, and program design. |
+| AI & machine learning | To build mathematical, programming, data, evaluation, and human-centered foundations—not just call an API. |
+| Product management | To understand discovery, user research, prioritization, experiments, metrics, roadmaps, and why a product should exist. |
+| Product design & UI/UX | To practice interaction design, accessibility, information architecture, prototyping, and usability as part of engineering quality. |
+| Research | To move from curiosity through literature, questions, methods, evidence, limitations, and clear communication. |
 
-*These are areas I’m exploring as a student; I’m not presenting them as completed or published research.*
+## A few principles I try to work by
 
-## 🧰 My Toolkit
+- **Build to understand.** A concept becomes clearer when I make it tangible and test where my understanding breaks.
+- **People before features.** Start with a real need; let the feature earn its place.
+- **Curiosity before certainty.** Treat assumptions as questions that deserve evidence.
+- **Design is part of engineering.** Clarity, access, and a humane experience belong beside correctness.
+- **Leave things better.** A project should improve something—or leave behind learning someone else can use.
 
-<div align="center">
+## Toolkit
 
-**Coding & building**  
-<img src="https://img.shields.io/badge/Python-Course%20projects-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python course projects" />
-<img src="https://img.shields.io/badge/HTML-Web%20projects-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML web projects" />
-<img src="https://img.shields.io/badge/Git%20%26%20GitHub-Project%20workflow-181717?style=flat-square&logo=github&logoColor=white" alt="Git and GitHub" />
+**Engineering** · Python · HTML · Git · GitHub · VS Code · testing · browser-based prototypes  
+**Product** · discovery · user needs · prioritization · product workflows · metrics  
+**Design** · visual communication · UI/UX · interaction design · design thinking · prototyping  
+**Research** · literature review · research questions · study design · evaluation · documentation  
+**Creative** · Adobe Creative Cloud · graphic design · visual storytelling
 
-**Creative work**  
-<img src="https://img.shields.io/badge/Adobe%20Creative%20Cloud-Design%20%26%20storytelling-DA1F26?style=flat-square&logo=adobecreativecloud&logoColor=white" alt="Adobe Creative Cloud" />
+I’m still building depth. The labels above reflect learning and project use, not expert-level claims.
 
-</div>
+## Community & experience
 
-## 🌱 What I’m Learning
+Odyssey and Renaissance Scholars at Elon · ColorStack · YAFG Scholar (2026) · Adobe Student Ambassador at Elon · Project Manager Intern, Excelerate · Social Media & Engagement Lead, Voima · ENJOY AI African Open 2025 volunteer · NSMQ participant, St. Hubert Seminary (2023) · plastic-waste-to-fuel / pyrolysis STEM project · Founder, SJ Graphic Design & Media Academy (graphic-design learning for 100+ young people).
 
-- Python fundamentals, functions, loops, and working with strings and lists
-- How to plan, build, and explain small software projects
-- Product discovery, user-centered design, and product management
-- Foundations of AI and machine learning, with an interest in financial technology
+## Let’s connect
 
-## 🏆 Scholars, Experience & Competition
+[LinkedIn](https://www.linkedin.com/in/emmanuel-acheampong0) · [Email](mailto:emmanuelacheampong816@gmail.com) · [GitHub](https://github.com/emmanuelacheampong0)
 
-- **Odyssey & Renaissance Scholars Program** — Elon University
-- **YAFG Scholar 2026** — Young Achievers Foundation Ghana
-- **Adobe Student Ambassador** — Elon University
-- **Project Manager Intern** — Excelerate
-- **Social Media & Engagement Lead** — Voima
-- **Technology & Robotics Volunteer** — ENJOY AI African Open 2025; supported participants and event activities
-- **National Science & Maths Quiz (NSMQ)** — St. Hubert Seminary, 2023
-- **National STEM Innovation Competition** — contributed to a plastic-waste-to-fuel prototype using pyrolysis
-- **Founder** — SJ Graphic Design & Media Academy; trained 100+ young people in graphic design and visual communication
-
-## 🧭 My Principles
-
-```text
-✦ Begin with people.
-✦ Make the experience clear.
-✦ Build, learn, and improve.
-✦ Use technology with purpose.
-✦ Let creativity and engineering work together.
-```
-
-## 📍 Current Focus
-
-| Focus | Status |
-|---|---|
-| Software engineering | Building foundations through coursework and projects |
-| Product management | Exploring user needs, product thinking, and prioritization |
-| AI & research | Learning the foundations and looking for questions worth exploring |
-| FinTech | Exploring accessible and human-centered financial products |
-| Design | Bringing visual storytelling and user empathy into my work |
-
-## 📊 GitHub Activity
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=emmanuelacheampong0&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=38BDF8&line=14B8A6&point=FFFFFF&area=true" alt="GitHub contribution activity graph" />
-</div>
-
-## 🤝 Let’s Connect
+Open to software and product internships, undergraduate research, research and design collaborations, open source, and learning with ambitious teams.
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/emmanuel-acheampong0"><img src="https://img.shields.io/badge/LinkedIn-Lets%20connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
-<a href="mailto:emmanuelacheampong816@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Emmanuel" /></a>
-<a href="https://github.com/emmanuelacheampong0"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub" /></a>
+**Building with curiosity. Building with people in mind.**  
+Thanks for visiting.
 
-**Open to:** internships · research conversations · collaborations · learning together
-
-<br />
-
-*Building with curiosity. Designing with people in mind.*
-
-</div>
-
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,55:1D4ED8,100:14B8A6&height=100&section=footer" alt="Blue and teal wave footer" />
 </div>
