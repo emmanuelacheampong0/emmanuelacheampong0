@@ -28,6 +28,23 @@ This GitHub is my **open lab**: course projects, playable experiments, product c
 | **Voima** | Product communication and visual design for a youth-led sickle-cell health initiative. | [Case study](https://github.com/emmanuelacheampong0/Voima-Project) |
 | **AI budgeting interface study** | A research proposal and prototype on explanations, uncertainty, and student decision-making. No study results are claimed. | [Proposal](research/proposal.md) · [Prototype](research/prototype/index.html) |
 
+## Visual work
+
+Selected visuals from the Black Arts Movement exhibition and Voima product-design work.
+
+<table>
+  <tr>
+    <td width="50%"><img src="assets/projects/black-arts-collage.jpg" alt="Digital collage for Our People, Our Stories, Our Art, Our Power" width="100%" /><br /><strong>Our People, Our Stories, Our Art, Our Power</strong><br />Digital collage · cultural memory and resistance</td>
+    <td width="50%"><img src="assets/projects/voima-app.jpg" alt="Voima app onboarding screen mockup" width="100%" /><br /><strong>Voima onboarding</strong><br />Digital product concept · health communication</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="assets/projects/voima-campaign.jpg" alt="Voima World Blood Donor Day campaign visual" width="100%" /><br /><strong>World Blood Donor Day</strong><br />Community campaign design</td>
+    <td width="50%"><img src="assets/projects/voima-health-info.jpg" alt="Voima sickle-cell health education visual" width="100%" /><br /><strong>Health information</strong><br />Visual education for community engagement</td>
+  </tr>
+</table>
+
+<a href="https://github.com/emmanuelacheampong0/Voima-Project">Explore the Voima case study ↗</a> · <a href="https://github.com/emmanuelacheampong0/Black-Arts-Movement">Explore the digital exhibition ↗</a>
+
 ## Research notebook
 
 I’m developing questions at the intersection of AI, product decisions, software, and people. These are learning directions and proposals—not completed studies or published findings.
