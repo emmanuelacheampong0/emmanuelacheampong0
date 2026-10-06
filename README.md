@@ -1,8 +1,15 @@
 <div align="center">
 
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/stream-hero.svg" width="100%" alt="Emmanuel’s open laboratory: Computer Science, creative design, and learning in public." /></a>
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/hello.gif" width="100%" alt="Hello, I’m Emmanuel Acheampong. Computer Science at Elon University. I’m building what I learned two minutes ago." />
 
-<p align="center"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/stream-tags.svg" width="100%" alt="Computer Science · Software · Product and AI · Research · Visual Design" /></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-cs.svg" width="400" alt="ELON UNIVERSITY · COMPUTER SCIENCE" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-ai.svg" width="400" alt="ARTIFICIAL INTELLIGENCE · EXPLORING & LEARNING" /></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-software.svg" width="400" alt="SOFTWARE ENGINEERING · BUILDING PROJECTS" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-product.svg" width="400" alt="PRODUCT MANAGEMENT · PRODUCT DESIGN" /></p>
+<p align="center">
+<img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-visual.svg" width="400" alt="VISUAL DESIGN · STORYTELLING" /> &nbsp; <img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/profile-studio/badge-scholars.svg" width="400" alt="ODYSSEY SCHOLAR · RENAISSANCE SCHOLAR" /></p>
+
+<p><strong>Software engineering · artificial intelligence · product thinking · visual design</strong></p>
 
 **[Selected work](#selected-work) · [Design](#visual-practice) · [Research](#research-lab) · [Learning](#learning-in-public) · [Community](#community-and-leadership) · [Connect](#lets-connect)**
 
