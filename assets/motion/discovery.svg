@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="275" viewBox="0 0 600 275" role="img" aria-labelledby="title">
+  <title id="title">AI product discovery: keep user feedback connected to its source</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#172648"/><stop offset="1" stop-color="#0c1327"/></linearGradient></defs>
+  <rect width="600" height="275" rx="14" fill="url(#g)"/>
+  <text x="28" y="35" fill="#a0b0cb" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">AI × PRODUCT DISCOVERY</text>
+  <text x="28" y="82" fill="#f4f7ff" font-family="Arial,sans-serif" font-size="28" font-weight="700">Hear the pattern.</text>
+  <text x="28" y="116" fill="#83cfff" font-family="Arial,sans-serif" font-size="28" font-weight="700">Keep the people.</text>
+  <g>
+    <rect x="29" y="151" width="178" height="43" rx="9" fill="#233861"/><text x="45" y="178" fill="#fff" font-family="Arial,sans-serif" font-size="13">“I got stuck here...”</text>
+    <rect x="29" y="204" width="222" height="43" rx="9" fill="#314e8a"/><text x="45" y="231" fill="#fff" font-family="Arial,sans-serif" font-size="13">“I need a clearer next step.”</text>
+    <path d="M238 172h84m-71 50h58m-46-50v50" fill="none" stroke="#83cfff" stroke-width="2" stroke-dasharray="5 6"/>
+    <rect x="333" y="162" width="235" height="77" rx="12" fill="#f1eee9"/>
+    <text x="352" y="191" fill="#19213a" font-family="Arial,sans-serif" font-size="13" font-weight="700">SUMMARY + SOURCE LINKS</text>
+    <text x="352" y="217" fill="#58657f" font-family="Arial,sans-serif" font-size="12">Human review stays in the loop.</text>
+    <circle cx="299" cy="194" r="10" fill="#ffb673"><animate attributeName="r" values="8;12;8" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
