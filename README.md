@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/header.gif" width="100%" alt="Animated introduction: Emmanuel Acheampong, Computer Science at Elon University, Ghanaian student, builder and design enthusiast." /></a>
+<a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/header.gif" width="100%" alt="Animated introduction: Emmanuel Acheampong, Computer Science at Elon University, builder and design enthusiast." /></a>
 
 **[Work](#selected-work) · [Visual practice](#visual-practice) · [Research](#research-lab) · [Learning](#learning-in-public) · [Community](#community-and-leadership) · [Say hello](#lets-connect)**
 
@@ -8,13 +8,13 @@
 
 <a href="#selected-work"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/focus-strip.svg" width="100%" alt="Software, AI and research, product, visual design, and people first." /></a>
 
-</div>## I’m building what I learned two minutes ago.
+</div> I’m building what I learned two minutes ago.
 
-**Always learning and building.** Break it down. Understand it. Fix it. Make something useful.
+**Always learning and building.** Break and Fix it to Find the Gist ofit.
 
 <p align="center"><a href="https://emmanuelacheampong0.github.io/emmanuelacheampong0/"><img src="https://raw.githubusercontent.com/emmanuelacheampong0/emmanuelacheampong0/main/assets/motion/explore.svg" width="280" alt="Explore Emmanuel’s interactive portfolio" /></a></p>
 
-I’m **Emmanuel Sefah Acheampong**, a Ghanaian Computer Science student at **Elon University**, an **Odyssey Scholar** and **Renaissance Scholar**, and a **design enthusiast**. I’m early in my software journey, with a designer’s instinct to ask how something works—and how it feels to use.
+I’m **Emmanuel Sefah Acheampong**, a Computer Science student at **Elon University**, an **Odyssey Scholar** and **Renaissance Scholar**, and a **design enthusiast**. I’m early in my software journey, with a designer’s instinct to ask how something works—and how it feels to use.
 
 My interests meet where **software engineering, product management, AI, design, health and finance** meet people. This page is my public laboratory: playable programs, visual stories, product case studies, research proposals, and the questions behind them.
 
