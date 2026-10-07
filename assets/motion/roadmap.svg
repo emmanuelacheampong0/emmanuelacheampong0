@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="275" viewBox="0 0 600 275" role="img" aria-labelledby="title">
+  <title id="title">Product strategy: move from human needs to useful experiments</title>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#23234d"/><stop offset="1" stop-color="#0c1327"/></linearGradient></defs>
+  <rect width="600" height="275" rx="14" fill="url(#g)"/>
+  <text x="28" y="35" fill="#a0b0cb" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2">PRODUCT STRATEGY × HUMAN NEEDS</text>
+  <text x="28" y="82" fill="#f4f7ff" font-family="Arial,sans-serif" font-size="28" font-weight="700">Why build it?</text>
+  <text x="28" y="116" fill="#c2b6ff" font-family="Arial,sans-serif" font-size="18">Start with people. Test the assumption.</text>
+  <path d="M82 184h420" fill="none" stroke="#7b8fc8" stroke-width="3" stroke-dasharray="4 7"/>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <circle cx="104" cy="184" r="30" fill="#83cfff"/><text x="104" y="190" fill="#12203d" font-size="13" font-weight="700">NEED</text>
+    <circle cx="236" cy="184" r="30" fill="#c2b6ff"/><text x="236" y="190" fill="#12203d" font-size="13" font-weight="700">IDEA</text>
+    <circle cx="368" cy="184" r="30" fill="#a8e6ce"/><text x="368" y="190" fill="#12203d" font-size="12" font-weight="700">TEST</text>
+    <circle cx="500" cy="184" r="30" fill="#ffb673"/><text x="500" y="190" fill="#12203d" font-size="11" font-weight="700">LEARN</text>
+  </g>
+  <circle cx="104" cy="184" r="36" fill="none" stroke="#83cfff" stroke-width="2" opacity=".7"><animate attributeName="r" values="33;43;33" dur="3s" repeatCount="indefinite"/></circle>
+  <text x="300" y="246" fill="#a0b0cb" text-anchor="middle" font-family="Arial,sans-serif" font-size="12">Discovery · prioritization · experiments · meaningful metrics</text>
+</svg>
