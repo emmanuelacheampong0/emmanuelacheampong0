@@ -4,7 +4,6 @@
 
 - [Roshambo](roshambo/) — rock, paper, scissors with replayable rounds.
 - [Neddle](neddle/) — choose a 4–8 letter word and solve it in six guesses.
-- [Ghana Ludo](ludo/) — a two-player, one-token Stage 1 race with safe squares, captures, six-roll bonuses, and exact-finish rules.
 
 Each browser game is a self-contained static HTML page, so GitHub Pages can serve it directly. Cultural symbols and any Akan-language copy in Ghana-inspired work should be reviewed by a fluent speaker before wider publication.
 
