@@ -83,8 +83,6 @@ footer{margin-top:20px!important}
       <section class="hero"><div class="kicker">A word game, your way</div><h1>Neddle</h1><p class="sub">Choose how long the hidden word should be. Find it in six guesses.</p></section>
       <section class="game" aria-label="Neddle word game">
         <p class="status" id="status" role="status" aria-live="polite">Your five-letter word is ready. Good luck!</p>
-        <div class="board" id="board" role="grid" aria-label="Six rows of five letter guesses"></div>
-        <div class="keyboard" id="keyboard" role="group" aria-label="On-screen keyboard"></div>
         <form class="controls" id="settings">
           <label class="length-control" for="wordLength">Word length <input id="wordLength" type="number" min="4" max="8" value="5" inputmode="numeric" aria-describedby="length-help"></label>
           <span class="sr" id="length-help">Choose a length from four to eight letters, then select Start or change length.</span>
@@ -92,6 +90,8 @@ footer{margin-top:20px!important}
           <button class="utility primary" type="button" id="playAgain" hidden>Play again 🎉</button>
           <button class="utility" type="button" id="clear">Clear row</button>
         </form>
+        <div class="board" id="board" role="grid" aria-label="Six rows of five letter guesses"></div>
+        <div class="keyboard" id="keyboard" role="group" aria-label="On-screen keyboard"></div>
         <div class="legend" aria-label="Feedback key"><span><i class="swatch green"></i>Right spot</span><span><i class="swatch gold"></i>In the word</span><span><i class="swatch gray"></i>Not in word</span></div>
       </section>
     </main>
