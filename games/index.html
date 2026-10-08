@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#f6f3ec" />
+  <meta name="theme-color" content="#080c17" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Righteous&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <title>Games Lab — Emmanuel Acheampong</title>
   <style>
     :root { --paper:#f6f3ec; --card:#fffdf7; --ink:#1d2821; --muted:#68736b; --line:#dfe3da; --pine:#275845; --coral:#e87556; --blue:#bcd5ed; --serif:Georgia,"Times New Roman",serif; --sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
@@ -13,6 +14,60 @@
     .cards{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding-bottom:54px}.card{position:relative;min-height:395px;overflow:hidden;border:1px solid var(--line);border-radius:22px;background:var(--card);text-decoration:none;transition:transform .18s ease,box-shadow .18s ease}.card:hover{transform:translateY(-4px);box-shadow:0 18px 38px #24342812}.art{height:190px;display:grid;place-items:center;position:relative;overflow:hidden}.roshambo .art{background:#e4efe4}.neddle .art{background:#f4e2d5}.orb{width:92px;height:92px;border-radius:50%;display:grid;place-items:center;background:var(--card);box-shadow:0 12px 22px #16251b18;font-size:42px}.orbit{position:absolute;width:215px;height:215px;border:1px solid #27584544;border-radius:50%;transform:rotate(-25deg) scaleY(.45)}.orbit.two{transform:rotate(38deg) scaleY(.48);width:285px;height:285px}.tiles{display:grid;grid-template-columns:repeat(5,32px);gap:5px;transform:rotate(-6deg)}.tiles i{height:32px;border-radius:7px;background:#fffdf7}.tiles i:nth-child(2),.tiles i:nth-child(4),.tiles i:nth-child(8),.tiles i:nth-child(10){background:#7f9d74}.tiles i:nth-child(3),.tiles i:nth-child(6){background:#e8ae52}.info{padding:23px 24px}.number{color:var(--muted);font:12px ui-monospace,monospace;letter-spacing:.1em}.info h2{margin:9px 0 8px;font:500 34px var(--serif)}.info p{max-width:430px;margin:0;color:var(--muted);line-height:1.55}.cta{display:inline-flex;align-items:center;gap:8px;margin-top:19px;color:var(--pine);font-size:13px;font-weight:750}.footer{padding:17px 0 28px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     @media(max-width:680px){.cards{grid-template-columns:1fr}.hero{padding-top:48px}.card{min-height:0}.tag{font-size:10px}}
     @media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+  
+:root{--night:#080c17;--panel:#111a2d;--cream:#fff6df;--yellow:#f6d52e;--sky:#168fe0;--coral:#ef5960;--teal:#37b88c;--violet:#a978e8;--sans:'Space Grotesk',ui-sans-serif,system-ui,sans-serif;--serif:'Righteous',Georgia,serif}
+*{box-sizing:border-box}
+html{min-height:100%;background:var(--night)}
+body{min-height:100vh;background:var(--night);color:var(--cream);font-family:var(--sans);background-image:radial-gradient(1px 1px at 8% 11%,#fff9 0 1px,transparent 1.7px),radial-gradient(1px 1px at 73% 21%,#f6d52eaa 0 1px,transparent 1.8px),radial-gradient(1.4px 1.4px at 38% 78%,#c9b7ff99 0 1px,transparent 1.8px),radial-gradient(1px 1px at 90% 64%,#fff9 0 1px,transparent 1.7px);background-size:300px 240px,390px 290px,450px 350px,510px 400px;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:-18%;z-index:-1;pointer-events:none;opacity:.45;background:radial-gradient(ellipse 90% 65% at -8% 7%,transparent 46%,#168fe0 46.3% 48%,#f6d52e 48.3% 50%,#ef5960 50.3% 52%,#a978e8 52.3% 54%,transparent 54.3%),radial-gradient(ellipse 75% 52% at 108% 95%,transparent 43%,#37b88c 43.3% 45%,#168fe0 45.3% 47%,#f6d52e 47.3% 49%,#ef5960 49.3% 51%,transparent 51.3%);animation:backgroundDrift 24s ease-in-out infinite alternate}
+a{color:inherit}button,input{font:inherit}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--yellow);outline-offset:4px}
+.wrap{position:relative;z-index:0}
+header{color:var(--cream);border-bottom:1px solid #ffffff30!important}
+.brand a,.brand{color:var(--cream)!important}
+.crumb,.tag{color:#c8c5d2!important}
+.crumb a{color:var(--yellow)!important}
+main{position:relative;isolation:isolate;overflow:hidden;margin:24px auto 0;padding:clamp(22px,4vw,48px);border:1px solid transparent;border-radius:30px;background:linear-gradient(145deg,#10182bed,#0b1021f5) padding-box,linear-gradient(135deg,var(--yellow),var(--sky) 27%,var(--teal) 48%,var(--violet) 70%,var(--coral) 88%,var(--yellow)) border-box;box-shadow:0 30px 90px #0008,inset 0 0 60px #1a315021}
+main::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.5;background:radial-gradient(circle at 91% 11%,#a978e82b 0 100px,transparent 102px),radial-gradient(circle at 8% 89%,#ef59601d 0 140px,transparent 142px),radial-gradient(1px 1px at 15% 28%,#fff 0 1px,transparent 1.7px),radial-gradient(1px 1px at 84% 62%,#f6d52e 0 1px,transparent 1.7px)}
+main>*{position:relative;z-index:1}
+h1,h2,.message{font-family:var(--serif)!important;font-weight:400!important;letter-spacing:-.035em}
+footer{border-color:#ffffff30!important;color:#c4c0d0!important}
+footer a,.footer a{color:var(--yellow)!important}
+@keyframes backgroundDrift{from{transform:translate3d(-1%,0,0)}to{transform:translate3d(1%,1%,0)}}
+@media(prefers-reduced-motion:reduce){body::before{animation:none!important}}
+
+.wrap{width:min(1100px,calc(100% - 36px));margin:auto}
+header{padding:19px 0}
+.tag{font-size:10px!important;letter-spacing:.15em!important}
+main{padding:0 clamp(22px,5vw,62px);margin-top:26px}
+.hero{max-width:780px;padding:54px 0 42px}
+.eyebrow{color:var(--yellow)!important;font-weight:700}
+h1{font-size:clamp(60px,10vw,112px)!important;line-height:.9!important;color:var(--cream);text-shadow:0 5px #0005}
+.hero p{color:#d4d0df!important;font-size:16px!important;max-width:620px}
+.cards{gap:20px;padding-bottom:50px}
+.card{min-height:380px;border:1px solid #ffffff30;background:#111a2d;border-radius:24px;transition:transform .4s cubic-bezier(.2,.8,.2,1),box-shadow .4s,border-color .3s;box-shadow:0 16px 40px #0005}
+.card:hover{transform:translateY(-9px) rotate(-.5deg);border-color:#f6d52eaa;box-shadow:0 26px 55px #0008,0 0 0 4px #f6d52e15}
+.art{height:205px!important}
+.roshambo .art{background:radial-gradient(circle at 50% 55%,#292050,#132442 68%,#10172a)!important}
+.neddle .art{background:linear-gradient(135deg,#2d2346,#172a39 52%,#434119)!important}
+.orbit{border-color:#f6d52e77!important;animation:orbitSpin 22s linear infinite}
+.orbit.two{border-color:#ef596080!important;animation-direction:reverse}
+.orb{background:linear-gradient(140deg,var(--yellow),var(--coral))!important;color:#121727;box-shadow:0 0 0 7px #ffffff12,0 15px 30px #0007!important;animation:orbFloat 4s ease-in-out infinite}
+.tiles{animation:tileFloat 6s ease-in-out infinite}
+.tiles i{background:#fff6df!important}
+.tiles i:nth-child(2),.tiles i:nth-child(4),.tiles i:nth-child(8),.tiles i:nth-child(10){background:var(--teal)!important}
+.tiles i:nth-child(3),.tiles i:nth-child(6){background:var(--yellow)!important}
+.info{padding:23px 26px}
+.number{color:var(--yellow)!important;font-size:10px}
+.info h2{font-size:clamp(28px,3vw,36px)!important;color:var(--cream)}
+.info p{color:#c9c5d4!important}
+.cta{color:var(--yellow)!important}
+.footer{color:#bfbaca!important;border-color:#ffffff30!important}
+@keyframes orbitSpin{to{transform:rotate(335deg) scaleY(.45)}}
+@keyframes orbFloat{50%{transform:translateY(-8px) rotate(-7deg)}}
+@keyframes tileFloat{50%{transform:translateY(-7px) rotate(-4deg)}}
+@media(max-width:680px){main{padding:0 20px}.hero{padding:42px 0 30px}.cards{gap:15px}.card{min-height:0}.art{height:180px!important}.footer{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.card,.orb,.orbit,.tiles{animation:none!important;transition:none!important}.card:hover{transform:none}}
+
   </style>
 </head>
 <body>
@@ -27,7 +82,7 @@
         </a>
         <a class="card neddle" href="neddle/index.html">
           <div class="art"><span class="tiles" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
-          <div class="info"><span class="number">02 / NEDDLE</span><h2>Find the hidden word</h2><p>Six tries. Five letters. A careful feedback system that treats duplicates fairly.</p><span class="cta">Play Neddle <span aria-hidden="true">↗</span></span></div>
+          <div class="info"><span class="number">02 / NEDDLE</span><h2>Find the hidden word</h2><p>Up to six tries. Choose four to eight letters. Fair clues, even when letters repeat.</p><span class="cta">Play Neddle <span aria-hidden="true">↗</span></span></div>
         </a>
       </section>
     </main>
