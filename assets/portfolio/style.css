@@ -161,3 +161,7 @@ footer{background:#070a12;color:#fff6df;border-top:8px solid transparent;border-
  .about-orbit{background:radial-gradient(circle at center,#19263a 0 54%,transparent 55%)}
 }
 @media(prefers-reduced-motion:reduce){.hero::before{animation:none}}
+
+/* Keep the fixed navigation readable against the dark festival header. */
+header .menu-toggle,header .motion-toggle{color:var(--ink)}
+header .menu-toggle:hover,header .motion-toggle:hover{color:var(--acid)}
