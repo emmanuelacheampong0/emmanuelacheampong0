@@ -68,13 +68,14 @@ h1{font-size:clamp(60px,10vw,112px)!important;line-height:.9!important;color:var
 @media(prefers-reduced-motion:reduce){.card,.orb,.orbit,.tiles{animation:none!important;transition:none!important}.card:hover{transform:none}}
 
   
+.cards{grid-template-columns:repeat(3,minmax(0,1fr))}.cards>.card:nth-child(n){grid-column:span 1}@media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:680px){.cards{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
   <div class="wrap">
     <header><div class="brand">EMMANUEL <span style="color:var(--coral)">/</span> GAMES LAB</div><div class="tag">Small ideas, thoughtfully built</div></header>
     <main>
-      <section class="hero"><div class="eyebrow">Playful builds · Ghana-inspired editions</div><h1>Play.<br>Notice.<br>Repeat.</h1><p>Small ideas, built into things you can play: quick rounds, a word puzzle, a Ghana-inspired Ludo board, a weather stylist, and a sunset lane-runner.</p></section>
+      <section class="hero"><div class="eyebrow">Playful builds · Ghana-inspired editions</div><h1>Play.<br>Notice.<br>Repeat.</h1><p>Small ideas, built into things you can play: quick rounds, a word puzzle, a Ghana-inspired Ludo board.</p></section>
       <section class="cards" aria-label="Games">
         <a class="card roshambo" href="roshambo/index.html">
           <div class="art"><span class="orbit"></span><span class="orbit two"></span><span class="orb" aria-hidden="true">✊</span></div>
@@ -85,8 +86,8 @@ h1{font-size:clamp(60px,10vw,112px)!important;line-height:.9!important;color:var
           <div class="info"><span class="number">02 / NEDDLE</span><h2>Find the hidden word</h2><p>Up to six tries. Choose four to eight letters. Fair clues, even when letters repeat.</p><span class="cta">Play Neddle <span aria-hidden="true">↗</span></span></div>
         </a>
         <a class="card ludo" href="ludo/index.html"><div class="art"><span class="kente-board" aria-hidden="true"><i>✳</i><i>✳</i><i>✳</i><i>✳</i></span></div><div class="info"><span class="number">03 / GHANA LUDO</span><h2>Roll. Race. Reach home.</h2><p>A Ghana-inspired two-player race: roll a six to leave home, capture on open squares, and reach the finish exactly.</p><span class="cta">Play Ghana Ludo <span aria-hidden="true">↗</span></span></div></a>
-        <a class="card wearwhat" href="wear-what/index.html"><div class="art"><span class="weather-art" aria-hidden="true"><b>28°</b><i>☼</i><small>LIGHT COTTON</small></span></div><div class="info"><span class="number">04 / WEATHER × STYLE</span><h2>Wear What?</h2><p>Choose the weather and get a friendly, practical outfit suggestion—designed for a quick phone check.</p><span class="cta">Style my day <span aria-hidden="true">↗</span></span></div></a>
-        <a class="card akwaba" href="akwaba-run/index.html"><div class="art"><span class="runner-art" aria-hidden="true">🏃🏿‍♂️</span></div><div class="info"><span class="number">05 / ENDLESS RUNNER</span><h2>Akwaba Run</h2><p>Dodge buses, jump barriers, collect gold, and bring the runner back for another try.</p><span class="cta">Start running <span aria-hidden="true">↗</span></span></div></a>
+        
+        
       </section>
     </main>
     <footer class="footer"><span>Student projects by Emmanuel Sefah Acheampong · portfolio prototypes</span><a href="../">Back to profile ↗</a><a href="https://www.linkedin.com/in/emmanuel-acheampong0/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></footer>
