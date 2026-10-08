@@ -165,3 +165,118 @@ footer{background:#070a12;color:#fff6df;border-top:8px solid transparent;border-
 /* Keep the fixed navigation readable against the dark festival header. */
 header .menu-toggle,header .motion-toggle{color:var(--ink)}
 header .menu-toggle:hover,header .motion-toggle:hover{color:var(--acid)}
+
+
+/* A hanging pass turns the opening into an invitation to explore. */
+.hero{
+  height:100svh;min-height:790px;max-height:1040px;
+  padding:0 4vw 30px;
+  isolation:isolate;
+}
+.hero::after{
+  top:16.5%;left:50%;transform:translateX(-50%);
+  width:min(1080px,89vw);height:72%;
+  border-radius:30px;
+  background:
+    radial-gradient(circle at 84% 19%,#a978e82b 0 88px,transparent 90px),
+    radial-gradient(circle at 16% 82%,#ef59601c 0 115px,transparent 117px),
+    linear-gradient(145deg,#080b13f7,#0c1425f0 62%,#080c17f7) padding-box,
+    linear-gradient(135deg,#f6d52e,#168fe0 28%,#37b88c 49%,#a35dc7 70%,#ef5960 86%,#f6d52e) border-box;
+  animation:passSway 8s ease-in-out infinite;
+  transform-origin:50% 12%;
+}
+.pass-lanyard{
+  position:absolute;left:50%;top:0;z-index:2;transform:translateX(-50%);
+  width:38px;height:19.5%;display:flex;justify-content:center;
+  background:repeating-linear-gradient(180deg,#191d2c 0 15px,#30364a 15px 18px);
+  border-inline:1px solid #ffffff35;box-shadow:0 8px 20px #0008;
+}
+.pass-lanyard span{
+  position:absolute;top:7px;writing-mode:vertical-rl;transform:rotate(180deg);
+  color:#d7d3e2;font-size:7px;letter-spacing:.14em;white-space:nowrap;
+}
+.pass-lanyard b{
+  position:absolute;bottom:-9px;width:55px;height:22px;
+  border:4px solid #52576b;border-bottom:0;border-radius:18px 18px 0 0;
+  filter:drop-shadow(0 2px 2px #0008);
+}
+.hero h1{
+  position:absolute;z-index:3;top:24%;left:calc(50% - min(540px,44.5vw) + 44px);
+  width:min(47%,510px);max-width:none;
+  font-size:clamp(56px,6.2vw,92px);line-height:.94;
+  letter-spacing:-.052em;
+}
+.hero h1>span{max-width:none}
+.hero .curious,.hero .possibility{padding-left:0}
+.hero .curious{color:#f6d52e}
+.hero .possibility{color:#fff9e9}
+.hero-note{
+  top:20%;right:calc(50% - min(540px,44.5vw) + 28px);
+  z-index:4;max-width:230px;padding:10px 14px;
+  border-radius:13px 13px 13px 3px;
+  background:#11192b;border-color:#f6d52e88;
+  box-shadow:0 8px 22px #0006;
+}
+.sculpture{
+  top:24%;right:calc(50% - min(540px,44.5vw) + 26px);
+  width:min(42vw,570px);height:54%;max-height:570px;z-index:2;
+}
+.shape-controls{bottom:4%;right:7%}
+.drag-hint{right:8%;bottom:-2%}
+.sticker{
+  left:calc(50% - min(540px,44.5vw) + 48px);right:auto;bottom:17%;
+  width:108px;height:108px;font-size:15px;
+}
+.hero-bottom{
+  left:calc(50% - min(540px,44.5vw) + 30px);
+  right:calc(50% - min(540px,44.5vw) + 30px);
+  bottom:11%;gap:14px;
+}
+.hero-bottom p{font-size:11px}
+.hero-bottom .hero-position{margin-left:auto;margin-right:auto}
+.hero-bottom .scroll-link{white-space:nowrap;padding:6px 0}
+.hero::before{animation-duration:24s}
+.hero-note,.hero-bottom p,.shape-controls,.sticker{backdrop-filter:blur(9px)}
+@keyframes passSway{
+  0%,100%{transform:translateX(-50%) rotate(-.35deg)}
+  50%{transform:translateX(-50%) rotate(.45deg)}
+}
+@media(max-width:950px){
+  .hero{min-height:790px}
+  .hero::after{width:91vw;height:73%;top:15.5%}
+  .hero h1{left:calc(50% - 45.5vw + 32px);top:24%;width:47%;font-size:clamp(52px,7vw,76px)}
+  .hero-note{right:calc(50% - 45.5vw + 22px);top:18%;max-width:190px}
+  .sculpture{right:calc(50% - 45.5vw + 20px);top:29%;width:43vw;height:47%}
+  .sticker{left:calc(50% - 45.5vw + 40px);bottom:18%;width:94px;height:94px;font-size:13px}
+  .hero-bottom{left:calc(50% - 45.5vw + 20px);right:calc(50% - 45.5vw + 20px);bottom:9%}
+}
+@media(max-width:650px){
+  .hero{height:100svh;min-height:770px;max-height:none;padding:0 5vw 20px}
+  .hero::before{inset:-2%;opacity:.86}
+  .hero::after{top:13%;width:91vw;height:75%;border-radius:23px}
+  .pass-lanyard{height:15%;width:31px}
+  .pass-lanyard span{font-size:5.5px}
+  .pass-lanyard b{width:45px;height:18px;border-width:3px}
+  .hero-note{top:16.5%;right:8%;max-width:145px;padding:7px 9px;font-size:8px}
+  .hero h1{
+    top:26%;left:10%;width:78%;
+    font-size:clamp(44px,11.6vw,62px);line-height:.95;
+    letter-spacing:-.045em;
+  }
+  .hero .curious{padding-left:3vw}
+  .hero .possibility{padding-left:0}
+  .asterisk{font-size:.48em;margin-left:5px}
+  .sculpture{top:49%;left:16%;right:auto;width:78vw;height:37%;max-height:330px}
+  .sculpture-caption{top:4%;right:6%;font-size:7px}
+  .shape-controls{right:3%;bottom:4%;padding:3px}
+  .shape-controls button{font-size:9px;padding:7px 10px}
+  .drag-hint{display:none}
+  .sticker{left:8%;bottom:21%;width:82px;height:82px;font-size:11px;border-width:2px}
+  .sticker::before{font-size:25px;top:-18px;right:-13px}
+  .hero-bottom{left:8%;right:8%;bottom:6%;gap:8px;align-items:end}
+  .hero-bottom p{font-size:9px;padding:8px 9px}
+  .hero-bottom .hero-position{display:none}
+  .scroll-link{font-size:8px}
+  .scroll-link span{margin-left:4px;font-size:17px}
+}
+@media(prefers-reduced-motion:reduce){.hero::after{animation:none}}
