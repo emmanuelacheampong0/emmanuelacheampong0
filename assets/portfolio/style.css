@@ -291,7 +291,7 @@ header .menu-toggle:hover,header .motion-toggle:hover{color:var(--acid)}
 .arcade-heading h2{font-family:'Righteous',sans-serif;font-size:clamp(42px,6vw,86px);line-height:1.03;margin:20px 0 0;letter-spacing:-.04em}
 .arcade-heading h2 em{font-style:normal;color:#f6d52e}
 .arcade-heading>p{color:#cbc7da;line-height:1.7;max-width:360px}
-.arcade-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-bottom:30px}
+.arcade-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-bottom:30px}
 .arcade-card{--accent:#ef5960;display:block;background:#111a2d;border:1px solid #ffffff30;border-radius:24px;overflow:hidden;text-decoration:none;transition:transform .3s,border-color .3s}
 .arcade-card:hover{transform:translateY(-7px) rotate(-.5deg);border-color:var(--accent)}
 .arcade-teal{--accent:#37b88c}.arcade-gold{--accent:#f6d52e}.arcade-blue{--accent:#168fe0}.arcade-violet{--accent:#a978e8}
